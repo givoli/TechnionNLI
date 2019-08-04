@@ -1,6 +1,6 @@
 # Zero-Shot Semantic Parsing for Instructions
 
-This repository contains the data and code for our ACL 2019 [paper](https://www.aclweb.org/anthology/P19-1438). In this work we consider a zero-shot semantic parsing task: parsing instructions into compositional logical forms, in domains that were not seen during training. We present a new dataset for this task.
+In this work we consider a zero-shot semantic parsing task: parsing instructions into compositional logical forms, in domains that were not seen during training. We present a new dataset for this task.
 
 ![](docs/images/task.jpg?raw=true "The Task")
 
