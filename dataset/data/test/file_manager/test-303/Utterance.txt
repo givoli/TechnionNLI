@@ -1,0 +1,1 @@
+﻿Move all images to the College directory

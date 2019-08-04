@@ -1,0 +1,5 @@
+This template is for creating an html page with one big image - size defined in px (which seems the best compromise between relative and absolute units). The following can help me decide on px #: [http://www.w3schools.com/browsers/browsers_display.asp].
+
+In order to turn this html template into an HTML file you need to replace the following string with an some URL:
+    {{{___ImageUrl___}}}
+    

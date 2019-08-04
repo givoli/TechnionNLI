@@ -1,0 +1,1 @@
+﻿Remove all the numbers except for the 2

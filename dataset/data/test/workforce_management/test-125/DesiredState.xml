@@ -1,0 +1,120 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem</rootEntityClassName>
+    <id>workforce_management</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>4</int>
+        <string>WorkforceManagementSystem.assignEmployeesToNewManager</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem</declaringClassCanonicalName>
+          <name>assignEmployeesToNewManager</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.Employee</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>WorkforceManagementSystem.fireEmployees</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem</declaringClassCanonicalName>
+          <name>fireEmployees</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>WorkforceManagementSystem.assignEmployeeToNewPosition</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem</declaringClassCanonicalName>
+          <name>assignEmployeeToNewPosition</name>
+          <parameterClassNames>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.Employee</string>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.Position</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>WorkforceManagementSystem.updateSalary</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem</declaringClassCanonicalName>
+          <name>updateSalary</name>
+          <parameterClassNames>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.Employee</string>
+            <string>int</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem">
+    <employees>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+        <name>Lissa</name>
+        <position>MANAGER</position>
+        <salary>43178</salary>
+      </il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+        <name>Lamarr</name>
+        <position>MANAGER</position>
+        <manager reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee"/>
+        <salary>78274</salary>
+      </il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+        <name>Latashia</name>
+        <position>DEVELOPER</position>
+        <manager reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[2]"/>
+        <salary>94525</salary>
+      </il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+        <name>Darlene</name>
+        <position>QA</position>
+        <manager reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[2]"/>
+        <salary>99247</salary>
+      </il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee>
+    </employees>
+  </rootEntity>
+  <nextIdToGive>6</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>12</threshold>
+      </default>
+      <int>16</int>
+      <int>5</int>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.WorkforceManagementSystem reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[4]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[2]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[3]"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>5</size>
+      </default>
+      <int>5</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[2]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[4]"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee[3]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.WorkforceManagementSystem reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/employees/il.ac.technion.nlp.nli.dataset1.domains.workforce__management.entities.Employee"/>
+      <string>4</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

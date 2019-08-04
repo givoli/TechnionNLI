@@ -1,0 +1,1 @@
+﻿Delete all files except dog1723 from directory "work" and file laptop3867 from directory "college"

@@ -1,0 +1,12 @@
+il.ac.technion.nlp.nli.parser
+il.ac.technion.nlp.nli.parser.denotation
+il.ac.technion.nlp.nli.parser.experiment
+il.ac.technion.nlp.nli.parser.experiment.analysis
+il.ac.technion.nlp.nli.parser.experiment.analysis.results
+il.ac.technion.nlp.nli.parser.features
+il.ac.technion.nlp.nli.parser.features.denotation
+il.ac.technion.nlp.nli.parser.features.phrase_predicate
+il.ac.technion.nlp.nli.parser.general
+il.ac.technion.nlp.nli.parser.kb
+il.ac.technion.nlp.nli.parser.lexicon
+il.ac.technion.nlp.nli.parser.type_system

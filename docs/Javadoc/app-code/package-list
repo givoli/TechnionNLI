@@ -1,0 +1,15 @@
+il.ac.technion.nlp.nli.dataset1
+il.ac.technion.nlp.nli.dataset1.domains.calendar.entities
+il.ac.technion.nlp.nli.dataset1.domains.calendar.hit
+il.ac.technion.nlp.nli.dataset1.domains.container_management.entities
+il.ac.technion.nlp.nli.dataset1.domains.container_management.hit
+il.ac.technion.nlp.nli.dataset1.domains.file_manager.entities
+il.ac.technion.nlp.nli.dataset1.domains.file_manager.hit
+il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities
+il.ac.technion.nlp.nli.dataset1.domains.lighting_control.hit
+il.ac.technion.nlp.nli.dataset1.domains.list.entities
+il.ac.technion.nlp.nli.dataset1.domains.list.hit
+il.ac.technion.nlp.nli.dataset1.domains.messenger
+il.ac.technion.nlp.nli.dataset1.domains.messenger.hit
+il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities
+il.ac.technion.nlp.nli.dataset1.domains.workforce_management.hit

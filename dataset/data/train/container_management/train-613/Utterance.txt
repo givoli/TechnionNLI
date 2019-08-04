@@ -1,0 +1,1 @@
+﻿Remove the loaded containers in the first and second terminals

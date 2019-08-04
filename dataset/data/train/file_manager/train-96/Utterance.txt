@@ -1,0 +1,1 @@
+﻿delete the file named "sarah9199" from the directory "vacation"

@@ -1,0 +1,118 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContainerManagementSystem</rootEntityClassName>
+    <id>container_management</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>3</int>
+        <string>ContainerManagementSystem.removeContainers</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContainerManagementSystem</declaringClassCanonicalName>
+          <name>removeContainers</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>ContainerManagementSystem.unloadContainers</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContainerManagementSystem</declaringClassCanonicalName>
+          <name>unloadContainers</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>ContainerManagementSystem.loadContainers</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContainerManagementSystem</declaringClassCanonicalName>
+          <name>loadContainers</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContainerManagementSystem">
+    <containers class="linked-list">
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+        <length>4</length>
+        <contentState>UNLOADED</contentState>
+      </il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+        <length>3</length>
+        <contentState>UNLOADED</contentState>
+      </il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+        <length>3</length>
+        <contentState>UNLOADED</contentState>
+      </il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+        <length>1</length>
+        <contentState>LOADED</contentState>
+      </il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+        <length>2</length>
+        <contentState>LOADED</contentState>
+      </il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+        <length>4</length>
+        <contentState>LOADED</contentState>
+      </il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer>
+    </containers>
+  </rootEntity>
+  <nextIdToGive>8</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>12</threshold>
+      </default>
+      <int>16</int>
+      <int>7</int>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ContainerManagementSystem reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[6]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[5]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[4]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[3]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[2]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>7</size>
+      </default>
+      <int>7</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[4]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[2]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[6]"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ContainerManagementSystem reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[5]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/containers/il.ac.technion.nlp.nli.dataset1.domains.container__management.entities.ShippingContainer[3]"/>
+      <string>5</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

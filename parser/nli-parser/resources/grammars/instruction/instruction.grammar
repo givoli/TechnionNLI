@@ -1,0 +1,115 @@
+# NOTICE: The content of this file was copied from the grammar by Pasupat Panupong and Percy Liang (2015) for WikiTableQuestions, and has been modified by Ofer Givoli.
+
+
+################################################################
+# Macros
+################################################################
+
+#Note: the term "reverse" is used in Sempre as a synonym for "inverse".
+(def @I reverse)
+(def @next next)
+(def @!next !next)
+(def @index index)
+(def @!index index)
+
+
+
+################################################################
+# Lexicon
+################################################################
+
+
+# Anchored derivations:
+
+(rule $PrimitiveEntity ($PHRASE) (NumberFn) (anchored 1))
+
+(rule $PrimitiveEntity ($PHRASE) (DateFn) (anchored 1))
+
+(rule $PrimitiveEntity ($PHRASE) (il.ac.technion.nlp.nli.parser.instruction.lexicon.TimeSemanticFn) (anchored 1))
+
+(rule $PrimitiveEntity ($PHRASE) (il.ac.technion.nlp.nli.parser.instruction.lexicon.LexiconSemanticFn ANCHORED_STRING_ENTITY) (anchored 1))
+
+(rule $PrimitiveEntity ($PHRASE) (il.ac.technion.nlp.nli.parser.instruction.lexicon.LexiconSemanticFn ANCHORED_ENUM_VALUE) (anchored 1))
+
+
+
+# Non-anchored derivations (i.e. derivations "from thin air"):
+
+(rule $PrimitiveRelation (nothing) (il.ac.technion.nlp.nli.parser.instruction.lexicon.LexiconSemanticFn PRIMITIVE_RELATION))
+
+(rule $NonPrimitiveRelation (nothing) (il.ac.technion.nlp.nli.parser.instruction.lexicon.LexiconSemanticFn NLI_ENTITY_RELATION))
+
+(rule $NLIMethodName (nothing) (il.ac.technion.nlp.nli.parser.instruction.lexicon.LexiconSemanticFn NLI_METHOD_NAME))
+
+(rule $NliEntities (nothing) (il.ac.technion.nlp.nli.parser.instruction.lexicon.LexiconSemanticFn ALL_NLI_ENTITIES_PER_TYPE))
+
+
+
+
+################################################################
+# Composition
+################################################################
+
+
+(rule $PrimitiveEntities ($PrimitiveEntity) (IdentityFn))
+
+
+# union:
+(rule $PrimitiveEntities ($PrimitiveEntities $PrimitiveEntities) (lambda e1 (lambda e2 (or (var e1) (var e2)))))
+(rule $NliEntities ($NliEntities $NliEntities) (lambda e1 (lambda e2 (or (var e1) (var e2)))))
+
+
+# intersection:
+(rule $NliEntities ($NliEntities $NliEntities) (lambda e1 (lambda e2 (and (var e1) (var e2)))))
+
+
+
+# join:
+
+(rule $NliEntities ($PrimitiveRelation $PrimitiveEntities) (lambda r (lambda e ((@I (var r)) (var e)))))
+(rule $PrimitiveEntities ($PrimitiveRelation $NliEntities) (lambda r (lambda e ((var r) (var e)))))
+
+(rule $NliEntities ($NonPrimitiveRelation $NliEntities) (lambda r (lambda e ((var r) (var e)))))
+(rule $NliEntities ($NonPrimitiveRelation $NliEntities) (lambda r (lambda e ((@I (var r)) (var e)))))
+
+
+
+# basic relations between primitive entities (e.g. scalar comparison relations):
+(for @basic_primitive_relation (< > <= >= !=)
+    (rule $NliEntities ($PrimitiveRelation $PrimitiveEntities) (lambda r (lambda e ((@I (var r)) (@basic_primitive_relation (var e))))))
+)
+
+
+# superlative:
+(for @argm (argmax argmin)
+    (rule $PrimitiveEntities ($NliEntities $PrimitiveRelation) (lambda e (lambda r (@argm 1 1 (var e) (@I (var r))))))
+)
+
+
+
+
+# Deriving the root logical form, denoting a function call:
+
+(rule $Entities ($PrimitiveEntities) (IdentityFn))
+(rule $Entities ($NliEntities) (IdentityFn))
+
+(rule $ROOT ($NLIMethodName) (lambda n (createFunctionCall (var n))))
+(rule $ROOT ($NLIMethodName $Entities) (lambda n (lambda a (createFunctionCall (var n) (var a)))))
+(rule $ROOT ($NLIMethodName $Entities $Entities) (lambda n (lambda a (lambda b (createFunctionCall (var n) (var a) (var b))))))
+#(rule $ROOT ($NLIMethodName $Entities $Entities) (lambda n (lambda a (lambda b (lambda c (createFunctionCall (var n) (var a) (var b) (var c)))))))
+#(rule $ROOT ($NLIMethodName $Entities $Entities) (lambda n (lambda a (lambda b (lambda c (lambda d (createFunctionCall (var n) (var a) (var b) (var c) (var d))))))))
+#(rule $ROOT ($NLIMethodName $Entities $Entities) (lambda n (lambda a (lambda b (lambda c (lambda d (lambda e (createFunctionCall (var n) (var a) (var b) (var c) (var d) (var e)))))))))
+
+
+
+
+################################################################
+# For debugging:
+################################################################
+
+(when debug 
+  (rule $Any ($PrimitiveEntities) (IdentityFn))
+  (rule $Any ($NliEntities) (IdentityFn))
+  (rule $ROOT ($Any) (IdentityFn))
+)
+

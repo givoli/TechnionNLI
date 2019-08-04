@@ -1,0 +1,1 @@
+﻿Keep the longest empty container and replace all others with the same loaded containers

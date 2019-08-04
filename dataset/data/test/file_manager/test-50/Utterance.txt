@@ -1,0 +1,1 @@
+﻿delete all text and image files from both directories

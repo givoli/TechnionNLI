@@ -1,0 +1,1 @@
+﻿Move all files to the Work directory except for the largest

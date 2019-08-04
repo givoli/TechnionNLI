@@ -1,0 +1,1 @@
+﻿Delete all rows except for Toby

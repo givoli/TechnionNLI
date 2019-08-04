@@ -1,0 +1,708 @@
+﻿id,domain,utterance
+train-1,calendar,Change Thursday's 15:00 and 18:00 item colors to black
+train-2,workforce_management,Delete all information about the manager Gail
+train-3,list,Delete all numbers from the list except the bottom number
+train-4,workforce_management,Promote Annika to manager
+train-5,list,Remove numbers 18 and 5
+train-6,container_management,Unload the container in the third and fourth terminals
+train-7,lighting_control,turn all family room lights off
+train-8,workforce_management,remove keturah and felipe
+train-9,calendar,Don't change any events
+train-10,container_management,Load the container in terminal three
+train-11,lighting_control,turn off every light in the house
+train-12,calendar,Change the color of all my appointments on the 10th to red
+train-13,lighting_control,Turn on all lights on floor 2 and floor 1
+train-14,file_manager,"Delete jake4138.txt, car8810.txt, and car9643.docx"
+train-15,file_manager,"Move the red line to the bottom of ""fun."""
+train-16,list,Put the 2 at the bottom of the list
+train-17,container_management,Load the container in the third terminal
+train-18,workforce_management,Promote Tony to manager
+train-19,container_management,Remove both the top and bottom bars
+train-20,lighting_control,turn all lights on except for the one in the family room
+train-21,messenger,mute my first two groups
+train-22,lighting_control,Turn on all the lights on floor 2
+train-23,file_manager,Move the file 'dog2842' to the third row in the Fun directory
+train-24,list,Put the number 1 at the top of the list
+train-25,list,Put the 19 at the top of the list
+train-26,calendar,Change's Wednesday's 12:00 event color from green to red
+train-27,container_management,Remove the container in the third terminal
+train-28,workforce_management,change armando's pay to 88654
+train-29,calendar,Remove the 10:00 and 11:00 events on Wednesday
+train-30,lighting_control,turn off every light in the house
+train-31,messenger,"Unmute chat group with Jessica, Stacy, Kevin, and 3 participants"
+train-32,messenger,open a chat with jessica and robert
+train-33,container_management,Remove the three short containers
+train-34,list,Move 15 below 14
+train-35,container_management,Load the container in terminal three
+train-36,list,Remove all the numbers except the 15
+train-37,file_manager,delete the row 'jake0962'
+train-38,list,Move number 15 to bottom of list
+train-39,file_manager,"delete the files named ""laptop0166"" and ""laptop7568"" from the directory named ""fun"""
+train-40,file_manager,Delete the red line
+train-41,lighting_control,turn all the lights off on the first floor
+train-42,workforce_management,Change the position of Lazaro from QA to developer
+train-43,lighting_control,make sure all the lights are on in every room
+train-44,container_management,Remove the short loaded container and the empty container
+train-45,file_manager,"move the files named ""laptop6190"" and ""sarah2761"" from the directory named ""fun"" to the directory named ""vacation"""
+train-46,calendar,Change's Wednesday's 09:00 event color from blue to green
+train-47,container_management,Load the container in terminal two and three
+train-48,workforce_management,change lachelle's position to developer
+train-49,lighting_control,turn on all the lights on floors 2 and 3
+train-50,file_manager,Delete task2032.pdf
+train-51,messenger,create new group with Sarah and Stacy
+train-52,workforce_management,Change Elana's position from developer to QA
+train-53,messenger,make a chat with amanda and andrew
+train-54,lighting_control,Turn off all lights on floor 2
+train-55,calendar,Cancel all events except haircut on Thursday
+train-56,calendar,Change all scheduled event colors to red except buying a piano
+train-57,list,Move number 19 to the top
+train-58,container_management,Unload the container in the third terminal
+train-59,list,"Remove 9, 5, and 11 from the list"
+train-60,list,Move 18 below 2
+train-61,file_manager,delete all files in the Work directory
+train-62,container_management,change the color of the bottom most gray line to blue
+train-63,workforce_management,Change Alesha's position from manager to developer
+train-64,container_management,Unload the top container
+train-65,workforce_management,Delete all of the cells for Reuben
+train-66,file_manager,move the files named jake1753 and task7713 from the Work directory to the Fun directory
+train-67,list,Put a 2 below 18 and above 9
+train-68,workforce_management,give alison 49899 salary
+train-69,messenger,unmute my first and second chat groups
+train-70,workforce_management,Remove all of the cells for Margarita
+train-71,list,move 20 to the bottom of the list
+train-72,file_manager,Move the PDF file from the Work directory to the College directory
+train-73,lighting_control,Turn on all lights on floor 1
+train-74,container_management,Unload the container in the second terminal
+train-75,list,Move the number 14 to the bottom of the list
+train-76,container_management,"Remove the containers in the first, third, fourth and fifth terminals"
+train-77,file_manager,Delete all files except for the largest image file in the College directory
+train-78,messenger,mute all chat groups
+train-79,workforce_management,change the title of position of manager to developer
+train-80,list,Move number 6 to the top
+train-81,file_manager,Move the entire Fun directory to the Vacation directory
+train-82,lighting_control,turn on every light except for the one in the third floor living room
+train-83,calendar,"Change the color of the 10:00, 12:00 and the 14:00 appointments on the 9th to blue"
+train-84,workforce_management,"Decrease Nigel's salary to 83,006"
+train-85,list,Put the 20 at the bottom of the list
+train-86,calendar,change all events to green except 14:00 Thursday
+train-87,container_management,Unload the containers in terminals three and five
+train-88,container_management,Unload the container at the top
+train-89,file_manager,Delete laptop4290.pdf
+train-90,workforce_management,Fire Gladys and Shauna and take Veronica off of managing Gladys
+train-91,workforce_management,"change the salary number of 98,415 to 82,355"
+train-92,lighting_control,turn of the lights in the first and third floor bedrooms
+train-93,lighting_control,Turn off the light in the bedroom on floor 2
+train-94,file_manager,Delete the jake6313 image file and the task6387.docx file in the College directory
+train-95,container_management,"Unload the containers in terminals two, four and five"
+train-96,file_manager,"delete the file named ""sarah9199"" from the directory ""vacation"""
+train-97,list,Move number 4 to the top
+train-98,workforce_management,"Decrease Akilah's salary to 57,262"
+train-99,messenger,mute all chat groups
+train-100,workforce_management,Remove Colleen and Latoya from the employee list
+train-101,file_manager,"Move both of the files in the ""Work"" directory to the ""College"" directory, so that the ""car"" file is listed first, and the ""laptop"" file is listed third"
+train-102,messenger,"Add chat group with Jessica, Andrew, Brian, and 3 participants"
+train-103,container_management,"Remove the containers in terminals one, two, and three"
+train-104,file_manager,"Move all files from directory 'college"" to  directory ""fun"""
+train-105,lighting_control,Turn off all the lights on floor 2 and floor 1
+train-106,calendar,Don't change any events
+train-107,container_management,Unload the container in terminal four
+train-108,lighting_control,turn off all the lights on the first floor
+train-109,workforce_management,Change Joelle's manager from Stephanie to Johanna
+train-110,messenger,Mute the chat group that has six people including Jessica and Sarah
+train-111,file_manager,Move the two largest files from the Fun directory into the Vacation directory
+train-112,list,move 2 to the top of the list
+train-113,workforce_management,Change Catharine from developer to manager
+train-114,calendar,Delete all appointments after the 9:00 meeting on the 9th
+train-115,file_manager,Delete the two largest files
+train-116,list,Move number 1 to the bottom
+train-117,calendar,Delete the car wash appointment on Wednesday
+train-118,calendar,Make all events blue except 17:00 on Thursday
+train-119,messenger,Mute the chat group that includes Andrew and Jessica
+train-120,file_manager,Move red highlighted files from the college directory to the work directory
+train-121,container_management,"Remove the top container, which is a half sized empty container, and replace it with a 1/2 sized full container"
+train-122,container_management,Load all of the containers
+train-123,messenger,"Mute chat group with Sarah, Robert, Amanda, and 7 participants"
+train-124,container_management,Unload the container in terminal two
+train-125,messenger,Un-mute the seven-person group with Brian and Robert in it
+train-126,lighting_control,Turn on all lights on floor 1
+train-127,calendar,Change buying a piano's event color from black to green
+train-128,container_management,Unload the last container
+train-129,list,"Remove numbers 9,11,7,19, and 10"
+train-130,container_management,Remove the top bar
+train-131,messenger,"Unmute chat group with Brian, Andrew, Jessica, and 2 participants"
+train-132,container_management,Load the containers in the second and sixth terminals
+train-133,messenger,unmute my last group
+train-134,calendar,Delete buying office supplies from Thursday's schedule
+train-135,calendar,Don't change any events
+train-136,workforce_management,"change the salary of 95,187 to 80,773"
+train-137,container_management,"Remove the containers in the first, third, fourth and sixth terminals"
+train-138,lighting_control,Turn on all lights on floor 2 and floor 1
+train-139,calendar,Don't change any events
+train-140,calendar,Cancel the 08:00 shopping on Wednesday
+train-141,lighting_control,turn off all the lights except for the one in the fourth floor bathroom
+train-142,container_management,Load the bottom container
+train-143,messenger,"Mute the group with Robert, Amy, and Andrew in it"
+train-144,messenger,remove my first chat group
+train-145,messenger,"Mute the Brian, Andrew group"
+train-146,workforce_management,Change the manager of Genesis and Marcelino to Viola
+train-147,lighting_control,turn the lights on in all rooms
+train-148,list,move 14 to the bottom of the list
+train-149,file_manager,copy and delete the row 'laptop4745' and insert it at the top of the Fun directory
+train-150,workforce_management,Change Deena and Keona's manager from Melynda to Apryl
+train-151,file_manager,"delete the file named ""jake9772"" from the directory ""college"" and delete the file named ""car3798"" from the directory named ""fun"""
+train-152,file_manager,Delete the largest file
+train-153,lighting_control,turn all the lights off except for the one in the second floor hall
+train-154,file_manager,Move the smallest file from the Fun directory to the Work directory
+train-155,container_management,Load the container in terminal three
+train-156,calendar,Delete car wash
+train-157,container_management,Load the container in terminal two
+train-158,messenger,"Remove the chat group with Amanda, Sarah, and Stacy in it (six people total)"
+train-159,lighting_control,Turn on all lights on floor 2 and floor 1
+train-160,list,Move number 2 to the bottom
+train-161,messenger,"Mute the eight-person group that includes Jessica, Amanda, and Robert"
+train-162,container_management,"I need the second largest of those four containers unloaded, but don't do anything with the other ones and leave the one you've unloaded in the terminal after doing so"
+train-163,calendar,Delete buying office supplies and jogging from the calendar
+train-164,workforce_management,Change Sunny's position from manager to QA
+train-165,lighting_control,Turn off the first floor bathroom light and hall light
+train-166,file_manager,Delete the image files car0495 and task2791 in the Vacation directory
+train-167,lighting_control,Turn off the lights on all floors
+train-168,workforce_management,give terron 56353 salary
+train-169,workforce_management,change danita's position to developer
+train-170,lighting_control,Turn off all lights on floor 2
+train-171,container_management,Remove the longest container
+train-172,messenger,"Mute chat group with Jessica, Sarah, and 10 participants"
+train-173,workforce_management,Replace Kylie as manager with Rolando and replace Dedra as manager with Rolando as well
+train-174,lighting_control,turn off the lights on the third floor and leave everything else as it is
+train-175,calendar,Delete Thursday's car wash item
+train-176,calendar,Delete all events from Wednesday and Thursday except fixing engine
+train-177,lighting_control,turn off the lights in every room on floors 2 and 3
+train-178,container_management,Load the container in the first terminal
+train-179,lighting_control,turn off all lights on floors one and two
+train-180,workforce_management,"Change the first row salary to 81,990"
+train-181,lighting_control,Turn on all the lights on all floors
+train-182,workforce_management,"Change the salary of Roni to 66,058"
+train-183,workforce_management,change kareen's salary to 67902
+train-184,list,Remove number 19
+train-185,lighting_control,Turn off the light in the bathroom on floor 1
+train-186,messenger,"Add a chat group with Amanda, Jessica, and Andrew"
+train-187,messenger,"Add a new chat group with Amanda, Jessica, and Brian in it"
+train-188,calendar,change the color to green for 18:00 on Wednesday and 17:00 on Thursday
+train-189,calendar,Cancel jogging on Thursday
+train-190,lighting_control,turn off all the lights
+train-191,messenger,"Remove the following two chat groups - the 3-person group with Amanda and Kevin, and the 2-person group with Robert and Kevin"
+train-192,file_manager,Delete the 'jake5445' and 'task1209' rows
+train-193,container_management,Remove the container in terminal two
+train-194,container_management,Load the container in the first terminal
+train-195,file_manager,Move laptop5798 that is an image file from the Vacation directory to the Fun directory
+train-196,lighting_control,Turn off all lights on floor 2
+train-197,lighting_control,Change the color of the top floor from Brown to Grey
+train-198,calendar,Change the 09:00 event on Wednesday from black to red
+train-199,list,"Remove numbers 15,9 and 1"
+train-200,messenger,unmute my second chat group
+train-201,lighting_control,Turn on all the lights on floor 1
+train-202,workforce_management,"change Mercedes and her respective information to Addie, manager, Karey and 88,699"
+train-203,file_manager,Delete the red lines
+train-204,lighting_control,Turn on all lights on floor 1
+train-205,calendar,Change all Thursday event colors from black to red
+train-206,file_manager,Delete the red line
+train-207,container_management,Unload the container in the second terminal
+train-208,list,Move 16 to the top of the list
+train-209,lighting_control,turn on the first floor lights and leave everything else as it is
+train-210,lighting_control,turn on all the lights on the first floor
+train-211,file_manager,"move the file named ""Sarah5339"" from the directory named ""college"" to the directory named ""work"""
+train-212,file_manager,Move the dog1704 document into the college directory
+train-213,lighting_control,turn the lights on in the bedroom and kitchen on the fourth floor
+train-214,file_manager,Move the smallest file into the Work directory
+train-215,list,Move number 2 to the bottom
+train-216,list,Move number 15 to the bottom
+train-217,list,Move 17 below 6
+train-218,messenger,"Remove all groups, except the Jessica, Robert group"
+train-219,messenger,"Mute the contact group of Sarah, Brian and Amy"
+train-220,list,Remove all of the numbers from the list EXCEPT for the 4
+train-221,container_management,Load the containers in the first and second terminal
+train-222,workforce_management,change maren's salary to 84683
+train-223,lighting_control,On floor 3 turn the bathroom and hall light off
+train-224,list,Move number 2 to the bottom
+train-225,calendar,Cancel all events except jogging on Wednesday
+train-226,container_management,Unload the container in the third terminal
+train-227,lighting_control,Turn the lights on for the dining room and living room on the first floor
+train-228,container_management,Replace the two loaded containers with two identical empty containers
+train-229,lighting_control,turn off all the lights on the fourth floor
+train-230,workforce_management,Change Samara's position from developer to QA
+train-231,container_management,Remove the unloaded container from the third terminal
+train-232,calendar,Change all Thursday event colors to black
+train-233,workforce_management,Delete Seth from the database
+train-234,file_manager,"move the file named ""task8279"" from the directory ""fun"" to the directory named ""work"""
+train-235,calendar,Change Wednesday's 09:00 and 11:00 event colors to red
+train-236,container_management,- make the grey bar blue
+train-237,workforce_management,Change Chet from manager to QA
+train-238,file_manager,Move all the files in the Vacation directory to the College directory
+train-239,container_management,Remove the container in the third terminal
+train-240,lighting_control,turn of the bathroom and hall lights on floor 2
+train-241,container_management,Load all of the containers but the one second from the bottom
+train-242,container_management,Unload the containers in the first and third terminals
+train-243,file_manager,Move the two largest files into the College directory
+train-244,calendar,Change all of Wednesday's item colors to red
+train-245,calendar,Remove working out from Thursday
+train-246,calendar,Change Thursday's 16:00 task color from blue to black
+train-247,list,Move number 7 to top of list
+train-248,messenger,Make a new chat group including Sarah and Brian
+train-249,lighting_control,Turn off the hall light and the kitchen light on the top floor
+train-250,messenger,"Unmute chat group with Kevin, Stacy, Jessica, and 4 participants"
+train-251,calendar,Delete my Thursday appointments
+train-252,calendar,Change all event colors to red except fixing engine
+train-253,list,Move number one up one slot
+train-254,list,Put a 2 between 18 and 19
+train-255,container_management,"Load the first, third and fifth containers"
+train-256,workforce_management,Delete all rows except for Toby
+train-257,lighting_control,Turn off the lights on floor 2 and 3
+train-258,list,Put the 14 at the top of the list
+train-259,calendar,cancel all black events
+train-260,container_management,Remove the two top and bottom bars
+train-261,file_manager,delete the row 'task3334'
+train-262,container_management,Load the container in terminal one
+train-263,container_management,Unload the container in the second terminal
+train-264,container_management,Load the containers in terminals three and four
+train-265,list,Move number 19 to the bottom
+train-266,calendar,Delete all of the events on Wednesday
+train-267,container_management,Unload the container in terminal four
+train-268,container_management,Remove the three shortest bars
+train-269,list,Move the number 10 to the first place in the list
+train-270,lighting_control,Turn on the lights on floor 1 and 2
+train-271,lighting_control,turn the lights on in every room
+train-272,list,Move the top number to the bottom of the list
+train-273,file_manager,Move the smallest three files from the Vacation directory to the College directory
+train-274,workforce_management,Make Seth Bethanys manager
+train-275,messenger,Delete the chat groups with 4 and 7 participants
+train-276,workforce_management,Change Annabel's supervisor from Stacie to Jamee
+train-277,container_management,Load the longest container
+train-278,calendar,Remove all the appointments after the 9 o clock one
+train-279,calendar,Change Wednesday's 10:00 event color from black to red
+train-280,calendar,Make all event colors blue
+train-281,workforce_management,change natalie's position to manager
+train-282,lighting_control,turn on all the second floor lights
+train-283,workforce_management,change brittany's manager to vincente
+train-284,calendar,Change the color of all appointments on Thursday to red
+train-285,messenger,remove all muted groups
+train-286,container_management,Please load the smallest container
+train-287,messenger,Remove the mute from the chat group with 9 participants
+train-288,lighting_control,turn off the second floor bathroom light
+train-289,workforce_management,Change the manager of Coretta and Ricardo to Bethann
+train-290,lighting_control,turn the third and fourth floor lights on
+train-291,calendar,Don't change any events
+train-292,container_management,Please move the larger loaded and unloaded containers out of the terminal and leave the smaller loaded container where it is
+train-293,messenger,"Add a chat group containing Andrew, Robert, and Kevin"
+train-294,container_management,Unload all of the containers
+train-295,messenger,Delete the chat group containing Jessica and Kevin
+train-296,workforce_management,remove everyone except tianna
+train-297,workforce_management,Fire Ezekiel and Ruth
+train-298,list,Remove the number 2 from the list
+train-299,file_manager,"delete the files named ""laptop0437"" and ""laptop1340"" from the directory ""college"""
+train-300,lighting_control,Turn off all lights on floor 2 and floor 1
+train-301,list,Move number 18 to the bottom
+train-302,container_management,Load the containers in the first and third terminals
+train-303,calendar,Change the color of the appointment at the carwash
+train-304,workforce_management,"Change Bradford's salary to 49,898"
+train-305,messenger,"make a group with jessica, amy, and sarah"
+train-306,file_manager,Delete task4405.docx
+train-307,list,Move number 11 to the top
+train-308,calendar,change the color of 16:00 on Thursday to blue
+train-309,file_manager,"Move the ""jake"" red line to below the black jake line and red ""task"" line to the bottom of ""work."""
+train-310,workforce_management,Replace Trista and Tamesha as managers with Damaris
+train-311,file_manager,"Move the red ""car"" line to the top of ""college"" and the red ""sarah"" line to the bottom of ""college."""
+train-312,list,Move number 1 to the bottom
+train-313,list,Move 4 to the bottom of the list
+train-314,lighting_control,turn off all lights except for the one in the kitchen
+train-315,file_manager,"In the directory ""work"" delete all files excepts sarah0556, and sarah7645"
+train-316,workforce_management,change hamilton's manager to jack
+train-317,calendar,Change shopping's color from black to red
+train-318,lighting_control,Turn off all the lights on floor 1
+train-319,file_manager,"Move the red ""jake"" lines to below the black ""dog"" line and the ""task"" red line to the bottom of ""work."""
+train-320,lighting_control,turn the lights on in all rooms
+train-321,workforce_management,"Increase Carmen's salary from 42,306 to 44,275"
+train-322,workforce_management,make nicolette's salary 70252
+train-323,list,Move number 1 to the top
+train-324,workforce_management,Promote Shoshana to developer
+train-325,workforce_management,"Change Shana's salary from 40,839 to 97,764"
+train-326,messenger,Mute the chat group with the most participants
+train-327,calendar,Delete Wednesday's 11:00 event
+train-328,lighting_control,Turn on all lights on floor 1
+train-329,file_manager,"Move the rest line to the bottom of ""vacation"""
+train-330,workforce_management,"change name of the manager, Joy, to Shena"
+train-331,workforce_management,Make Greta a manager
+train-332,calendar,Delete all events from November 9th
+train-333,list,Move the number 1 to the bottom of the list
+train-334,container_management,"Add an unloaded container below the first, a loaded container below that, a loaded container in the fourth slot and an uloaded container in the last terminal"
+train-335,lighting_control,Turn on all the lights on floor 2 and floor 1
+train-336,lighting_control,turn off the lights on the third and fourth floors
+train-337,container_management,Unload the container in the second terminal
+train-338,messenger,"Unmute the Amanda, Andrew, Kevin group"
+train-339,workforce_management,Change the manager of the bottom two employees to Shannan
+train-340,list,Move the 4 from the top of the list to the bottom of the list
+train-341,lighting_control,Turn off all the lights on floor 2 and floor 3
+train-342,list,Move the 17 to the last place in the list
+train-343,messenger,"Add chat group with Amanda, Amy, Andrew, and 3 participants"
+train-344,list,Move number 20 to the top
+train-345,container_management,Load all of the containers but the bottom one
+train-346,messenger,Mute the chat group with Jessica and Sarah
+train-347,list,Move number 20 up one slot
+train-348,workforce_management,"change the salary of 43,021 to 94,051"
+train-349,container_management,Remove the short empty container and the two loaded containers
+train-350,calendar,Change the color of my last three appointments on Thursday to blue
+train-351,workforce_management,Make Bronson the manager of Maia and Orlando
+train-352,calendar,Cancel working out on Wednesday
+train-353,file_manager,"move the file named ""dog1864"" to the college directory"
+train-354,lighting_control,Turn off the lights on floor 2
+train-355,list,Delete the bottom number
+train-356,messenger,"Add group Jessica, Kevin, Brian, and 3 participants"
+train-357,lighting_control,Turn off the lights on floor 2
+train-358,messenger,"Unmute chat group with Brian, Stacy, and 2 participants"
+train-359,calendar,Change all Thursday item colors to blue
+train-360,calendar,Delete all Wednesday events and Thursday's 09:00 work out
+train-361,lighting_control,turn the lights off on the first floor
+train-362,file_manager,Move all files from the College directory to the Work directory
+train-363,container_management,Load the container in terminal one
+train-364,messenger,"Remove the Amy, Brian, Peter group"
+train-365,workforce_management,Delete employees Mamie and Sylvester
+train-366,file_manager,Move the red item to below laptop2222
+train-367,messenger,"Add a chat group with the names Andrew, Robert, and Sarah"
+train-368,calendar,Remove the final three items from Thursday's calendar
+train-369,calendar,"Cancel getting a haircut, fixing the engine, and buying a piano on Wednesday"
+train-370,file_manager,Move the PDF file from the Fun directory into the Work directory
+train-371,messenger,Mute the chat group containing Andrew and Robert
+train-372,container_management,Remove the shortest bar
+train-373,lighting_control,Turn on the bathroom light on floor 2
+train-374,file_manager,move the file 'dog1732' to the top of the Fun directory
+train-375,lighting_control,Turn the lights off on Floor 1
+train-376,messenger,delete my first chat group
+train-377,list,move 1 to the top of the list
+train-378,calendar,Change the color of volleyball on Thursday to red
+train-379,calendar,Delete all Wednesday events from the calendar
+train-380,lighting_control,Turn off the lights in the bathroom and hall on floor 4
+train-381,list,Remove numbers 1 and three
+train-382,container_management,Remove the longest of the five bars
+train-383,lighting_control,Turn on the lights in the bathroom and family room on floor 4
+train-384,file_manager,Move the file 'jake8630' to the bottom of the College directory
+train-385,file_manager,delete the car3821 row
+train-386,workforce_management,Change Omari's position to manager
+train-387,calendar,Delete everything on Thursday after jogging
+train-388,container_management,Unload the container in terminal three
+train-389,messenger,create a group with amanda and robert
+train-390,workforce_management,Change Lina's manager to Bradley
+train-391,messenger,"Remove the chat group with Robert, Amy, and 2 participants"
+train-392,file_manager,Delete both red lines
+train-393,list,Move number 6 to the top
+train-394,workforce_management,Make Kenneth the manager of Lynda and Kimberly
+train-395,workforce_management,Remove Daren from the employee list
+train-396,lighting_control,Turn on the lights on floor 1 and floor 2
+train-397,container_management,Keep the longest empty container and replace all others with the same loaded containers
+train-398,workforce_management,Get rid of everyone but Sally
+train-399,messenger,"Add chat group with Jessica, Kevin, and 2 participants"
+train-400,workforce_management,change Che from QA to manager
+train-401,calendar,Change Thursday's 12:00 and 13:00 colors to green
+train-402,messenger,"Un-mute these two groups - the group with Jessica and Robert only, and the group that includes Amanda, Robert, and Brian"
+train-403,list,Move the number 7 from the last place in the list to the first place in the list
+train-404,container_management,Unload the container in the fourth terminal
+train-405,calendar,Remove the 09:00 meeting from the calendar
+train-406,list,Move 20 to the top of the list
+train-407,messenger,Add a new group to the list with only Robert and Sarah in it and no other participants
+train-408,workforce_management,change jayne's position to manager
+train-409,list,Move number 3 to the bottom
+train-410,workforce_management,change the name of Manager of Qiana and Aron to Ellis
+train-411,list,Move the number 20 from the last spot on the list to the first spot in the list
+train-412,file_manager,"delete the file named ""laptop6604"" from the directory named ""work"""
+train-413,list,move 16 to the bottom of the listt
+train-414,messenger,delete all my groups except for the last one
+train-415,file_manager,Delete files highlighted in red text
+train-416,container_management,Remove the container in the first terminal
+train-417,messenger,"Add chat group with Amanda, Andrew, Robert, and 3 participants"
+train-418,lighting_control,turn the light off in the hall and in the first floor bathroom
+train-419,messenger,mute the chat group with sarah and brian
+train-420,container_management,Remove all containers except the bottom container
+train-421,file_manager,Move the two smallest files to the College directory
+train-422,messenger,"Un-mute the group with seven people that has Brian, Jessica, and Andrew in it"
+train-423,calendar,Change the color of the last appointment on Thursday to red
+train-424,container_management,Load the container in the first terminal
+train-425,calendar,Delete my last two appointments on Thursday
+train-426,workforce_management,"change the name of manager, Georgina, to Joan"
+train-427,calendar,Keep the schedule the same
+train-428,list,move 17 to the top of the list
+train-429,file_manager,delete the file 'dog2133'
+train-430,container_management,Unload the containers in the third and fourth terminals
+train-431,messenger,Delete the group with 2 participants
+train-432,workforce_management,change sharona and otis's managers to christel
+train-433,calendar,Change car wash from red to black
+train-434,list,Remove the 3 from the list
+train-435,messenger,Mute the contact group of Amanda and Jessica
+train-436,file_manager,"move the file ""laptop5516"" to the directory ""fun"""
+train-437,calendar,Delete all appointments after jogging on Wednesday and everything on Thursday
+train-438,workforce_management,Change Shaunda's position to developer
+train-439,list,Move the number 3 from the second place in the list to the last place in the list
+train-440,workforce_management,Promote Chassity to manager
+train-441,list,Remove all of the numbers from the list EXCEPT the 18
+train-442,messenger,mute my chat group with stacy and kevin
+train-443,container_management,Load the container in the fifth terminal
+train-444,container_management,unload the top and the middle container
+train-445,file_manager,Delete the three largest files
+train-446,lighting_control,Turn on the dining room light and hall light on the second floor
+train-447,calendar,Delete the 17:00 event from Thursday
+train-448,workforce_management,Delete the rows for Antonia and Paul
+train-449,lighting_control,Turn on all the lights on all floors
+train-450,file_manager,"move the file named ""dog1677"" from the directory ""fun"" to the directory ""college"""
+train-451,messenger,unmute my last chat group
+train-452,file_manager,Delete the row 'sarah3426'
+train-453,workforce_management,Remove Carter from the employee list
+train-454,workforce_management,remove bronson
+train-455,list,Delete all numbers from the list except for 6
+train-456,file_manager,Delete all files highlighted in red
+train-457,container_management,Unload the container in the third terminal
+train-458,file_manager,"delete the file named ""car2430"" from the directory named ""fun"""
+train-459,file_manager,"delete the file named ""laptop7315"" from the directory ""college"""
+train-460,lighting_control,Turn off the light in the floor 1 dining room
+train-461,file_manager,"delete the file named ""car3037"" from the directory ""fun"""
+train-462,workforce_management,Make Keli a QA
+train-463,container_management,"I need all those containers, except the very smallest one, taken out of the terminal and the one that remains here should also remain loaded"
+train-464,list,"Remove numbers 8,4, and 14"
+train-465,messenger,"Add chat group with Amanda, Kevin, Adam, and 3 participants"
+train-466,file_manager,"move the files ""sarah4716"" and ""sarah4905"" to the directory marked ""vacation"""
+train-467,container_management,remove the topmost 2 containers and the bottom container
+train-468,calendar,Don't change any events
+train-469,calendar,Keep the schedule the same
+train-470,file_manager,Delete the car5952 image file from the college directory
+train-471,workforce_management,Change Jessica and Tequila's manager from Deanna to Joey
+train-472,workforce_management,"Increase Gena's salary to 52,181"
+train-473,file_manager,Delete task1380.txt
+train-474,calendar,Change the color of the shopping on the 9th to black
+train-475,list,Place the red number above the top number
+train-476,lighting_control,Turn on all the lights on floor 1
+train-477,container_management,Remove the two shortest bars
+train-478,calendar,Change the 10:00 on Wednesday to blue
+train-479,list,move 18 to the top of the list
+train-480,lighting_control,Turn on the lights on floor 1
+train-481,container_management,Remove the middle bar
+train-482,list,Move number 1 to the bottom
+train-483,file_manager,Delete the red lines
+train-484,calendar,Make the 13:00 and 16:00 on Thursday black
+train-485,list,Remove the 19 from the list
+train-486,container_management,Load the container in terminal three
+train-487,file_manager,"Sort files according to purpose, putting work related files in the work directory and fun files into the fun directory"
+train-488,calendar,Remove all calendar items except the car wash
+train-489,workforce_management,Promote Vincenzo to developer
+train-490,workforce_management,Change Tashias manager from Cecilia to Tosha
+train-491,file_manager,"Move the red line to the top of ""college."""
+train-492,calendar,Change Thursday's 15:00 event from blue to green
+train-493,calendar,Change the 13:00 appointment on Wednesday and all the Thursday appointments to green
+train-494,calendar,Remove Wednesday's 09:00 item from the calendar
+train-495,calendar,Delete volleyball from the schedule
+train-496,workforce_management,Fire Pedro
+train-497,file_manager,delete the file 'dog5376'
+train-498,list,move seven to the bottom of the list
+train-499,container_management,Remove the two longest bars
+train-500,container_management,Remove the grey bars
+train-501,list,"Remove numbers 16,7,13, and 9"
+train-502,calendar,Call Jessica and cancel the 12:00 car wash at Redwood
+train-503,workforce_management,Fire Karl and Ayesha
+train-504,workforce_management,change tavon and mya's manager to bridgette
+train-505,file_manager,Delete all files except task5684.doc
+train-506,list,Move the number 15 to the top of the list
+train-507,calendar,Remove the 10:00 event on Wednesday
+train-508,list,Move the number 18 to the top of the list
+train-509,list,Delete all numbers except for 4
+train-510,calendar,Change the text color of the first two appointments to red
+train-511,list,Remove number 6
+train-512,messenger,Unmute the chat group that is muted
+train-513,file_manager,Move the file 'task6800' from Fun to the bottom of the Vacation directory
+train-514,messenger,mute my first chat group
+train-515,calendar,Change all event colors to red except car wash
+train-516,container_management,Unload the container in the third terminal
+train-517,lighting_control,turn all the lights on except for in the second floor bathroom
+train-518,workforce_management,Replace Ashly and Tami as managers with Kathrine
+train-519,list,move four to the bottom of the list
+train-520,calendar,Change Thursday's 11:00 from black to blue
+train-521,calendar,Change Thursday's shopping color to green
+train-522,container_management,Load the container in terminal two
+train-523,messenger,"Remove all groups, except the Robert, Sarah group"
+train-524,calendar,Cancel the 09:00 and 11:00 events on Wednesday
+train-525,messenger,"Mute chat group with Brian, Amanda, Andrew, and 8 participants"
+train-526,messenger,mute my last chat group
+train-527,list,Remove the 18 from the list
+train-528,file_manager,"Move the red line to the bottom of ""College."""
+train-529,file_manager,"delete the file named ""sarah3937"" from the directory named ""college"""
+train-530,file_manager,Delete the red line
+train-531,lighting_control,Turn off all lights on floor 1
+train-532,container_management,Unload the top most loaded container
+train-533,container_management,"Unload the containers in the second, third and fifth terminals"
+train-534,list,Remove number 2
+train-535,container_management,"Load the containers in terminals two, three and six"
+train-536,list,Remove number 18 from the list
+train-537,workforce_management,Change the position for Ari from developer to QA
+train-538,calendar,Delete jogging from the schedule
+train-539,container_management,Unload the container in terminal five
+train-540,container_management,Load the container in the second terminal
+train-541,file_manager,delete the files 'task9398' and 'dog1749'
+train-542,container_management,Remove the two short containers
+train-543,list,Put the three under the five
+train-544,list,Remove 20
+train-545,file_manager,"Move the files named ""car8786"" and ""sarah8479"" from the directory named ""work"" to the directory named ""vacation"""
+train-546,file_manager,Delete the two smallest files
+train-547,lighting_control,Turn on all lights on floor 1 and floor 2
+train-548,lighting_control,turn all first floor lights on
+train-549,list,Move 16 to the top of the list
+train-550,workforce_management,"Increase Russells salary to 72,812"
+train-551,messenger,Remove the chat group with Andrew and Robert
+train-552,calendar,cancel buying a piano on Thursday
+train-553,container_management,Unload the container in terminal three
+train-554,calendar,Erase my appoinments on Thursday and the work out on Wednesday
+train-555,lighting_control,Turn on the bathroom light on floor 4
+train-556,workforce_management,"Increase Kristas salary to 82,415"
+train-557,lighting_control,turn off all the lights on the first and second floors
+train-558,list,Remove number 5
+train-559,workforce_management,change june's position to developer
+train-560,calendar,Delete buying a piano from Wednesday's schedule
+train-561,lighting_control,Turn off all lights on floor 2 and floor 1
+train-562,lighting_control,Change the 3rd floor and top floor colors from grey to brown
+train-563,workforce_management,Change Darrick's manager from Amelia to Jeannine
+train-564,container_management,Unload the container in terminal two
+train-565,messenger,"Add chat group with Amanda, Andrew, Brian, and 3 participants"
+train-566,calendar,Delete getting a haircut from the schedule
+train-567,file_manager,"Move the red line to the top of ""fun"""
+train-568,calendar,Change volleyball on Wednesday to blue
+train-569,file_manager,Move the red car line below the black car line and red sarah below black laptop
+train-570,messenger,"Remove all groups, except the Andrew, Kevin, Sarah group"
+train-571,file_manager,"Move ""dog7142"" above dog7402 and ""jake0254"" below it"
+train-572,list,"Remove numbers 4,19, 7, and 15"
+train-573,list,Move number 14 to the bottom
+train-574,list,Remove number 18
+train-575,list,Move 8 above 19
+train-576,container_management,Remove the three shortest bars
+train-577,list,Remove all red numbers
+train-578,messenger,"Mute two chat groups - the group with Jessica and Brian only, and the group with Amanda, Jessica, and Adam in it"
+train-579,lighting_control,turn on all lights on floors 1 and 2
+train-580,lighting_control,turn off the third floor bathroom light
+train-581,messenger,"Remove all groups, except the Jessica, Andrew, kevin group"
+train-582,list,move 6 to the top of the list
+train-583,file_manager,Move red highlighted files into the work directory
+train-584,file_manager,Delete all files not of the Image type
+train-585,lighting_control,Turn off all lights on all floors
+train-586,calendar,Cancel shopping on Wednesday
+train-587,file_manager,Delete all the red lines
+train-588,file_manager,"Delete file car4752 from directory ""college"""
+train-589,messenger,create a group with amanda and sarah
+train-590,file_manager,"delete the files ""laptop2386"" and ""laptop6911"" from the directory marked ""work"""
+train-591,messenger,"Unmute chat group with Kevin, Brian, Adam and 8 participants"
+train-592,list,Move number 3 to the bottom
+train-593,lighting_control,Turn on all the lights on floor 1 and 2
+train-594,messenger,"Unmute chat group with Robert, Brian, and Jessica and 10 Participants"
+train-595,list,move 2 to the top of the list
+train-596,calendar,change working out to black
+train-597,workforce_management,"Change the salary for Shenika from 82,925 to 91,564"
+train-598,lighting_control,Turn all of the lights on on the first floor and second floor
+train-599,workforce_management,Delete employees Leeanne and Pilar
+train-600,workforce_management,give rueben a developer position
+train-601,lighting_control,Turn off all the lights on the first floor
+train-602,file_manager,Move all files to the Fun directory
+train-603,list,Move the 3 from the bottom to the top
+train-604,lighting_control,Turn off all lights on all floors except living room on floor 4
+train-605,calendar,Delete all my Thursday appointments
+train-606,list,Move number 17 to the bottom
+train-607,workforce_management,"Increase Jeramiahs salary to 64,678"
+train-608,file_manager,"Move the red line to the end of ""college"""
+train-609,lighting_control,turn off the third floor lights
+train-610,file_manager,Move car6708.pdf to the Work directory
+train-611,workforce_management,remove raegan
+train-612,file_manager,"Delete file jake2148 from directory ""work"""
+train-613,container_management,Remove the loaded containers in the first and second terminals
+train-614,container_management,Can you please load the two out of three containers that are currently unloaded?
+train-615,lighting_control,turn off all the lights on the second and third floors
+train-616,container_management,The first line should be blue and the third line should be blue too
+train-617,lighting_control,turn off all lights on floor 3
+train-618,messenger,Mute contact group Sarah and Kevin
+train-619,messenger,"Remove the five person chat group with Robert, Amy, and Brian"
+train-620,lighting_control,Turn on all the lights on floor 3
+train-621,messenger,Delete the chat group with 8 participants
+train-622,lighting_control,turn on every light in the house
+train-623,workforce_management,Change Vivian's manager from Dina to Timothy
+train-624,workforce_management,"Fire Breann, Lynette and Salena"
+train-625,lighting_control,turn off all the lights in every room
+train-626,list,Move the 18 to the bottom of the list
+train-627,list,Move the second number to the top
+train-628,file_manager,Move the image file from the Work directory to the Vacation directory
+train-629,container_management,Remove the bottom and the top bars
+train-630,container_management,Load the container in terminal one
+train-631,workforce_management,change shawnta's salary to 47839
+train-632,messenger,"Add group with Brian, Amy, Robert, and 3 participants"
+train-633,lighting_control,turn all the lights on on the second floor
+train-634,file_manager,"move the dog4283, laptop9648 and task6738 into the directory labeled ""fun"""
+train-635,container_management,Remove the four longest bars
+train-636,messenger,"Remove the Brian, Amanda group"
+train-637,messenger,"Remove group with Jessica, Stacy, 5 participants"
+train-638,messenger,mute all chats
+train-639,messenger,"Mute the chat group with Robert, Brian and Sarah and mute the chat group with Sarah, Jessica and Amanda"
+train-640,list,Move the number 1 from the second to last place in the list to the top of the list
+train-641,lighting_control,turn all lights on except for in the third floor dining room
+train-642,list,Move number 4 to the top
+train-643,messenger,unmute all chat groups
+train-644,workforce_management,"Increase Tarahs salary to 56,392"
+train-645,container_management,Load the container in terminal three
+train-646,list,remove 19
+train-647,calendar,Delete volleyball from Thursday's schedule
+train-648,messenger,"add a chat group with jessica, andrew, and robert"
+train-649,lighting_control,"Turn on all the lights on floor 3, 2, and 1"
+train-650,workforce_management,change annabel's manager to kristy
+train-651,workforce_management,Make Angella the manager of Tracie and Latrice
+train-652,messenger,mute my second chat group
+train-653,lighting_control,Turn on all lights on floor 2 and floor 1
+train-654,file_manager,Delete jake6654 from Work directory
+train-655,calendar,Delete all scheduled events except the meeting
+train-656,list,Delete numbers 2 and 1 from the list
+train-657,lighting_control,Turn on dining room light on floor 2
+train-658,lighting_control,turn the lights on in every room on the first and second floors
+train-659,workforce_management,remove everyone but lenny
+train-660,messenger,mute my first group
+train-661,messenger,Remove the mute from the chat group with 10 participants
+train-662,messenger,"make a group with amanda, andrew, and brian"
+train-663,messenger,"Mute the chat group with Jessica, Sarah, and Andrew in it (the one with 10 people)"
+train-664,calendar,Change Wednesday's volleyball event color from red to black
+train-665,list,Remove the number 1 from the list
+train-666,container_management,Remove the containers in the first and fourth terminals
+train-667,messenger,"Remove group with Amanda, Brian, Jessica, and 6 participants"
+train-668,workforce_management,Delete the row for Lakenya
+train-669,calendar,Delete Wednesday's items from the schedule
+train-670,calendar,Remove all my Thursday appoinments
+train-671,container_management,Make both of the gray lines blue
+train-672,messenger,Add a new group with Sarah and Brian as the only participants
+train-673,lighting_control,"On floor 1 turn the living room light on, then go to floor 4 and turn the bedroom light on"
+train-674,workforce_management,make laurie's salary 62436
+train-675,calendar,change the meeting event to red
+train-676,workforce_management,change joanie's salary to 93328
+train-677,file_manager,"delete the files named ""jake8729"" and ""sarah9807"" from the directory ""fun"""
+train-678,lighting_control,turn off all the lights on the first and second floors
+train-679,lighting_control,Turn off the bathroom and hall lights on floor 3
+train-680,list,Move number 1 to the top of the list
+train-681,file_manager,"Move the file dog2152 to the ""College"" directory so that it is the first file, and then move the file task7623 to the same directory so that it is the last file"
+train-682,file_manager,Delete the red line
+train-683,lighting_control,Turn off the lights on floor 2 and floor 1
+train-684,container_management,Load the container in terminals two and three
+train-685,calendar,Change buying a piano's event color to red
+train-686,messenger,"Add chat group with Jessica, Andrew, Sarah, and 3 participants"
+train-687,container_management,Remove the loaded container from the first terminal
+train-688,workforce_management,Fire Errol
+train-689,calendar,Remove buying office supplies from Wednesday's schedule
+train-690,messenger,"Mute the Andrew, Kevin group"
+train-691,messenger,mute my first chat group
+train-692,list,Remove numbers 11 and 9
+train-693,messenger,"Make a new chat group with Jessica, Robert, and Brian in it"
+train-694,container_management,Load the containers in the first and third terminals
+train-695,messenger,"Mute the Sarah, Jessica, Andrew group"
+train-696,file_manager,Delete task9114.pdf in the College directory
+train-697,file_manager,Delete all files that have been highlighted in red
+train-698,lighting_control,Turn off all lights on floor 2 and floor 3
+train-699,calendar,Delete shopping on the 10th
+train-700,messenger,mute all chat groups
+train-701,container_management,Unload all of the containers
+train-702,container_management,Load every container except the second container from the bottom
+train-703,lighting_control,Turn off all the lights on the top floor and third floor
+train-704,messenger,"Mute chat group with Sarah, Adam, and 5 participants"
+train-705,calendar,Delete my 18:00 appointment on Thursday
+train-706,list,Remove number 20
+train-707,list,Move 15 to the top of the list

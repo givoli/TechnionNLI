@@ -1,0 +1,127 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar</rootEntityClassName>
+    <id>calendar</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>2</int>
+        <string>Calendar.removeEvents</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar</declaringClassCanonicalName>
+          <name>removeEvents</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>Calendar.setEventColor</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar</declaringClassCanonicalName>
+          <name>setEventColor</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+            <string>il.ac.technion.nlp.nli.core.state.entities.Color</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar">
+    <events class="linked-list">
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+        <title>working out</title>
+        <startTime>2016-11-10T18:00:00Z[UTC]</startTime>
+        <location>San Jose</location>
+        <color>BLUE</color>
+        <attendees class="linked-list">
+          <string>Robert</string>
+          <string>Jessica</string>
+        </attendees>
+      </il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+        <title>shopping</title>
+        <startTime>2016-11-09T11:00:00Z[UTC]</startTime>
+        <location>Belmont</location>
+        <color>BLACK</color>
+        <attendees class="linked-list"/>
+      </il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+        <title>meeting</title>
+        <startTime>2016-11-09T08:00:00Z[UTC]</startTime>
+        <location>Belmont</location>
+        <color>BLUE</color>
+        <attendees class="linked-list">
+          <string>Robert</string>
+          <string>Jessica</string>
+        </attendees>
+      </il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+        <title>renting a car</title>
+        <startTime>2016-11-10T12:00:00Z[UTC]</startTime>
+        <location>Sunnyvale</location>
+        <color>BLUE</color>
+        <attendees class="linked-list"/>
+      </il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+        <title>getting a haircut</title>
+        <startTime>2016-11-09T14:00:00Z[UTC]</startTime>
+        <location>Redwood</location>
+        <color>BLACK</color>
+        <attendees class="linked-list">
+          <string>Robert</string>
+          <string>Amanda</string>
+        </attendees>
+      </il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event>
+    </events>
+  </rootEntity>
+  <nextIdToGive>7</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>12</threshold>
+      </default>
+      <int>16</int>
+      <int>6</int>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[5]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[4]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[3]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[2]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>6</size>
+      </default>
+      <int>6</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[5]"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[3]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[4]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/events/il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event[2]"/>
+      <string>5</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

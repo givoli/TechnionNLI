@@ -1,0 +1,1 @@
+﻿Delete all files highlighted in red text and delete any directory that doesn't contain any files

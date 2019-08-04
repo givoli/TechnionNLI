@@ -1,0 +1,1 @@
+﻿delete the file named "dog4356" from the directory "Vacation"

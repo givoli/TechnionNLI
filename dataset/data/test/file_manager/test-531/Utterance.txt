@@ -1,0 +1,1 @@
+﻿Delete task3246.txt and all the files in the Work directory

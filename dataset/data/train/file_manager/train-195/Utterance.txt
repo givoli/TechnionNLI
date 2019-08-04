@@ -1,0 +1,1 @@
+﻿Move laptop5798 that is an image file from the Vacation directory to the Fun directory

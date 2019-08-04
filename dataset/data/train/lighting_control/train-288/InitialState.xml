@@ -1,0 +1,134 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightingControlSystem</rootEntityClassName>
+    <id>lighting_control</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>2</int>
+        <string>LightingControlSystem.turnLightOn</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightingControlSystem</declaringClassCanonicalName>
+          <name>turnLightOn</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>LightingControlSystem.turnLightOff</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightingControlSystem</declaringClassCanonicalName>
+          <name>turnLightOff</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightingControlSystem">
+    <rooms class="linked-list">
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>hall</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>1</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>bathroom</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>1</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>bedroom</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>1</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>hall</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>2</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>bathroom</roomName>
+        <lightMode>ON</lightMode>
+        <floor>2</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>family room</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>3</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>dining room</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>3</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+        <roomName>bathroom</roomName>
+        <lightMode>OFF</lightMode>
+        <floor>3</floor>
+      </il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room>
+    </rooms>
+  </rootEntity>
+  <nextIdToGive>10</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>12</threshold>
+      </default>
+      <int>16</int>
+      <int>9</int>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.LightingControlSystem reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[8]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[7]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[6]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[5]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[4]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[3]"/>
+      <string>8</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[2]"/>
+      <string>9</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>9</size>
+      </default>
+      <int>9</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.LightingControlSystem reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[5]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[8]"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[6]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[7]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room"/>
+      <string>9</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[4]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[2]"/>
+      <string>8</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/rooms/il.ac.technion.nlp.nli.dataset1.domains.lighting__control.entities.Room[3]"/>
+      <string>7</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

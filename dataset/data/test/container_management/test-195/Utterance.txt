@@ -1,0 +1,1 @@
+﻿Remove the four shortest bars, leaving just the two longest bars

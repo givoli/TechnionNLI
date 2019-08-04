@@ -1,0 +1,1 @@
+﻿Move dog8192.txt from the Vacation directory to the Work directory

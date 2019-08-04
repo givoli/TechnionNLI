@@ -1,0 +1,1 @@
+﻿Remove the loaded container from the first terminal

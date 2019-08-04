@@ -1,0 +1,1 @@
+﻿Change the color of the last appointment on Thursday to red

@@ -1,0 +1,13 @@
+il.ac.technion.nlp.nli.core
+il.ac.technion.nlp.nli.core.dataset
+il.ac.technion.nlp.nli.core.dataset.construction
+il.ac.technion.nlp.nli.core.dataset.construction.hit_random_generation
+il.ac.technion.nlp.nli.core.dataset.construction.mturk
+il.ac.technion.nlp.nli.core.dataset.visualization
+il.ac.technion.nlp.nli.core.dataset.visualization.html
+il.ac.technion.nlp.nli.core.general
+il.ac.technion.nlp.nli.core.method_call
+il.ac.technion.nlp.nli.core.reflection
+il.ac.technion.nlp.nli.core.state
+il.ac.technion.nlp.nli.core.state.entities
+il.ac.technion.nlp.nli.core.state.knowledgebase

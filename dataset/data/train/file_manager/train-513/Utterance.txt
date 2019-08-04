@@ -1,0 +1,1 @@
+﻿Move the file 'task6800' from Fun to the bottom of the Vacation directory

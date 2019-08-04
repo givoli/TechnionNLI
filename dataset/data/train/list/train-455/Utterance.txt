@@ -1,0 +1,1 @@
+﻿Delete all numbers from the list except for 6

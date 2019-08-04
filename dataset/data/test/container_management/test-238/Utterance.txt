@@ -1,0 +1,1 @@
+﻿Replace the loaded container at the bottom with an empty one of the same length

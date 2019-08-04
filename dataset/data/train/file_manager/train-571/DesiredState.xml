@@ -1,0 +1,178 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.file_manager.entities.FileManager</rootEntityClassName>
+    <id>file_manager</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>2</int>
+        <string>FileManager.moveFiles</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.file_manager.entities.FileManager</declaringClassCanonicalName>
+          <name>moveFiles</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.file_manager.entities.Directory</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>FileManager.removeFiles</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.file_manager.entities.FileManager</declaringClassCanonicalName>
+          <name>removeFiles</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.file_manager.entities.FileManager">
+    <allFiles class="linked-list">
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>car6818</name>
+        <type>Image File</type>
+        <sizeInBytes>3837015</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>dog7402</name>
+        <type>PDF Document</type>
+        <sizeInBytes>55</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>dog2143</name>
+        <type>Word Document</type>
+        <sizeInBytes>5388</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>dog4203</name>
+        <type>PDF Document</type>
+        <sizeInBytes>47475372</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>car6598</name>
+        <type>Image File</type>
+        <sizeInBytes>579612</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>dog7142</name>
+        <type>Text File</type>
+        <sizeInBytes>20</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>jake0254</name>
+        <type>PDF Document</type>
+        <sizeInBytes>10</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+        <name>dog6361</name>
+        <type>Text File</type>
+        <sizeInBytes>59</sizeInBytes>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File>
+    </allFiles>
+    <allDirectories class="linked-list">
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory>
+        <name>Work</name>
+        <childFiles class="linked-list">
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[2]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[3]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[4]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[6]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[7]"/>
+        </childFiles>
+        <childDirectories class="linked-list"/>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory>
+        <name>College</name>
+        <childFiles class="linked-list">
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[5]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[8]"/>
+        </childFiles>
+        <childDirectories class="linked-list"/>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory>
+        <name>cwd</name>
+        <childFiles class="linked-list"/>
+        <childDirectories class="linked-list">
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory[2]"/>
+        </childDirectories>
+      </il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory>
+    </allDirectories>
+    <cwd reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory[3]"/>
+  </rootEntity>
+  <nextIdToGive>13</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>24</threshold>
+      </default>
+      <int>32</int>
+      <int>12</int>
+      <string>11</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[2]"/>
+      <string>12</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.FileManager reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory[3]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory[2]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[8]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[7]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[6]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[5]"/>
+      <string>8</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory"/>
+      <string>9</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[4]"/>
+      <string>10</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[3]"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>12</size>
+      </default>
+      <int>12</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[4]"/>
+      <string>9</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory"/>
+      <string>8</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[2]"/>
+      <string>11</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory[2]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File"/>
+      <string>12</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[8]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[7]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.FileManager reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[6]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[5]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allFiles/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.File[3]"/>
+      <string>10</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/allDirectories/il.ac.technion.nlp.nli.dataset1.domains.file__manager.entities.Directory[3]"/>
+      <string>2</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

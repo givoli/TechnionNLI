@@ -1,0 +1,1 @@
+﻿Remove numbers 9,11,7,19, and 10

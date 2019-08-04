@@ -1,0 +1,1 @@
+﻿Keep only the longest empty container

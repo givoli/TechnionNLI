@@ -1,0 +1,1 @@
+﻿Remove the following numbers from the list: the 1, the 6, and the 2

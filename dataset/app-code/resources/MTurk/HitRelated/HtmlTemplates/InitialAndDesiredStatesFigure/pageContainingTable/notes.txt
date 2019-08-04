@@ -1,0 +1,4 @@
+This template is for creating an html with a 2x2 table.
+In order to turn this html template into an HTML file you need to replace the following strings with the appropriate HTML block they represent:
+	{{{___InitialState___}}}
+	{{{___DesiredState___}}}

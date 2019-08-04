@@ -1,0 +1,1 @@
+﻿Change the color for both Thursday events from black to red

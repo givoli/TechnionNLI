@@ -1,0 +1,1 @@
+﻿Move the image file from the Work directory to the Vacation directory

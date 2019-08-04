@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nli</artifactId>
+        <groupId>il.ac.technion.nlp.nli</groupId>
+        <version>1.1</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>il.ac.technion.nlp.nli.dataset1</groupId>
+    <artifactId>nli-app-code</artifactId>
+    <version>1.1</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<!-- Java version: -->
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>il.ac.technion.nlp.nli.core</groupId>
+			<artifactId>nli-core</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<!-- note that this is an optional dependency, so it will not be inherited by other modules that use this module
+            as a dependency. -->
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+
+</project>

@@ -1,0 +1,4 @@
+These templates are for creating an html page with is the description of a domain. 
+In order to turn this html template into a perfectly valid HTML file, you need to replace the following string with the appropriate value it represent:    
+    {{{domainExampleImageUrl}}}
+    

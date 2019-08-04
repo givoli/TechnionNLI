@@ -1,0 +1,1 @@
+﻿Remove all of the numbers from the list EXCEPT for the 4

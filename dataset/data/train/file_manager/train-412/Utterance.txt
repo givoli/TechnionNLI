@@ -1,0 +1,1 @@
+﻿delete the file named "laptop6604" from the directory named "work"

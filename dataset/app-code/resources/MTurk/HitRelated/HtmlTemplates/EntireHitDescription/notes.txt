@@ -1,0 +1,7 @@
+This template is for creating an html page with is the entire description of a HIT. 
+In order to turn this html template into a perfectly valid HTML file (without any more variables to be replaced), you need to replace the following strings with the appropriate value they represent:    
+    {{{exampleDomainWithBoxes_InitialAndDesiredStatesImageUrl}}}
+    {{{DomainDescriptionHtml}}}
+    {{{hit_InitialAndDesiredStatesImageUrl}}}
+    {{{hit_LargeImagePageUrl}}}
+    

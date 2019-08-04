@@ -1,0 +1,1 @@
+﻿Sort files according to purpose, putting work related files in the work directory and fun files into the fun directory

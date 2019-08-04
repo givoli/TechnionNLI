@@ -1,0 +1,1 @@
+﻿delete the file named "car2430" from the directory named "fun"

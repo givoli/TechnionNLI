@@ -1,0 +1,1 @@
+﻿Remove the longest of the five bars

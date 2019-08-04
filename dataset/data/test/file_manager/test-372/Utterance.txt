@@ -1,0 +1,1 @@
+﻿Please delete all files in the directory "work" and files laptop3005 and sarah5532 from the directory "college"

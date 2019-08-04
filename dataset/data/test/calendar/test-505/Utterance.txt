@@ -1,0 +1,1 @@
+﻿Change the color of the 13:00 Thursday appointment to black

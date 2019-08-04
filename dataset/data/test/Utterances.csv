@@ -1,0 +1,685 @@
+﻿id,domain,utterance
+test-1,file_manager,"delete the files 'jake4156', 'task7431', 'dog3883', and 'car3430'"
+test-2,calendar,"Remove the 13:00, 14:00, and 17:00 events from Thursday"
+test-3,container_management,Unload the container in terminal five
+test-4,lighting_control,Turn off all lights except the bathroom on floor 1
+test-5,lighting_control,turn off all lights except for the one in the first floor bathroom
+test-6,file_manager,Move all files into the College directory
+test-7,lighting_control,turn off all the lights on the second and third floors
+test-8,lighting_control,Turn on the dining room and hall lights on floor 2
+test-9,container_management,Remove the shortest bar
+test-10,list,Move 5 below 20
+test-11,lighting_control,Turn off lights on floor 2 and floor 1
+test-12,list,move 8 to the bottom of the list
+test-13,container_management,"For those three loaded containers, please unload the smallest of the three and then return it back to its original position and don't do anything with the other two loaded ones"
+test-14,workforce_management,Fire Lizeth
+test-15,list,Remove number 2
+test-16,lighting_control,Turn on all the lights on all floors
+test-17,list,Move the number 1 to the first place in the list
+test-18,lighting_control,turn all the lights off
+test-19,calendar,Change the color for both Thursday events from black to red
+test-20,workforce_management,Remove Roseanne and Eli from the employee list
+test-21,calendar,change the 10:00 and 09:00 to green
+test-22,calendar,Keep the schedule the same
+test-23,messenger,"Unmute all groups, except the Sarah, Brian, Jessica group"
+test-24,list,Move number 17 to the top
+test-25,container_management,Remove the three shortest bars
+test-26,container_management,Unload the containers in terminals one and two
+test-27,workforce_management,Promote Sandi to manager
+test-28,workforce_management,"Increase Tristas salary to 99,117"
+test-29,workforce_management,change moira's pay to 94278
+test-30,container_management,Keep only the longest empty container
+test-31,container_management,Remove the two loaded containers
+test-32,workforce_management,Replace Gabrielle and Elena as managers with Carolyn
+test-33,file_manager,"Delete all files in directory ""fun"""
+test-34,list,Move the number 18 to the bottom of the list
+test-35,messenger,Unmute all groups
+test-36,calendar,Change Thursday's 15:00 event color from black to blue
+test-37,workforce_management,Change Donald's position from QA to manager
+test-38,container_management,Remove the loaded container at the top completely
+test-39,workforce_management,Change Ashleigh's manager from Myesha to Zachary
+test-40,list,move six to the bottom of the list
+test-41,lighting_control,turn on every light in every room in the house
+test-42,lighting_control,make sure all lights are on except for the one in the first floor bathroom
+test-43,container_management,unload the top container
+test-44,file_manager,delete the file 'task8025'
+test-45,lighting_control,Turn on the light in the dining room on floor 1
+test-46,file_manager,Move dog2931.docx and dog8129.pdf from the Work directory to the Fun directory
+test-47,lighting_control,Turn off all the lights on floor 2
+test-48,list,Move the number 1 from the third place in the list to the top of the list
+test-49,workforce_management,change abdul's salary to 88029
+test-50,file_manager,delete all text and image files from both directories
+test-51,list,"Remove the following numbers: the 6, the 4, and the 1"
+test-52,calendar,Remove all Wednesday items from the calendar
+test-53,workforce_management,change galen's position to developer
+test-54,messenger,unmute all chat groups
+test-55,list,Remove numbers 12 and 10
+test-56,workforce_management,"Decrease Tyrels salary to 71,398"
+test-57,messenger,"Add chat group with Amanda, Kevin, and 2 participants"
+test-58,messenger,mute my last chat group
+test-59,calendar,Delete Thursday's 08:00 item from the calendar
+test-60,workforce_management,Change Kent's position from developer to manager
+test-61,file_manager,Delete sarah4010.docx
+test-62,calendar,Change volleyball's event color from red to black
+test-63,list,Move 20 below 1
+test-64,messenger,"add a chat group with jessica, andrew, and sarah"
+test-65,container_management,Remove the top and bottom containers
+test-66,workforce_management,"Change Rolanda's salary to 60,689"
+test-67,container_management,Load the container in the fifth terminal
+test-68,workforce_management,Change the manager of the bottom two employees to Drew
+test-69,file_manager,Delete the smallest file from the Vacation directory
+test-70,list,Move the bottom number to the top of the list
+test-71,workforce_management,delete gavin
+test-72,lighting_control,turn off all the lights on the first floor
+test-73,workforce_management,remove timothy's entry
+test-74,workforce_management,Change Anisha's position from QA to developer
+test-75,container_management,Only keep the shortest loaded container and the shortest empty container
+test-76,messenger,Take the group of six people that includes Andrew and Sarah off mute
+test-77,workforce_management,Change Aric and Mellissa's manager from Felix to Tracie
+test-78,workforce_management,Chance Javier and Rosendos manager to Lucy
+test-79,lighting_control,Turn off all of the lights on the first and second floors
+test-80,file_manager,Delete the smallest file
+test-81,lighting_control,Turn on the lights on floor 2 and fllor 1
+test-82,container_management,Unload all of the containers
+test-83,file_manager,"Move the red line to the bottom of ""fun"""
+test-84,calendar,Erase the car rental on Thursday
+test-85,calendar,Take off shopping at 16:00 at Redwood
+test-86,workforce_management,"Change the bottom row salary to 55,192"
+test-87,list,Remove 2 from the list
+test-88,list,Move the second number to the bottom of the list
+test-89,messenger,Create new unmuted contact group with Adam and Amy only
+test-90,lighting_control,turn off all the lights in the house
+test-91,list,Move 12 to the bottom of the list
+test-92,messenger,"Please remove the row of chat groups which has the contacts ""Stacy, Amy, Jessica"""
+test-93,workforce_management,Change Jakes job from QA to developer
+test-94,container_management,load the bottom and the middle container
+test-95,lighting_control,Turn on all of the lights on the first floor
+test-96,lighting_control,Turn on the lights on floor 2
+test-97,lighting_control,turn on every light except for the one in the bathroom on the fourth floor
+test-98,list,move 13 to the top of the list
+test-99,file_manager,"move the files named ""jake5857"" and ""task4126"" from the directory ""fun"" to the directory ""work"""
+test-100,file_manager,Delete all files highlighted in red text and delete any directory that doesn't contain any files
+test-101,file_manager,Remove dog1333
+test-102,list,Remove all the numbers except for the 2
+test-103,container_management,Remove the container in terminal two
+test-104,file_manager,Delete the largest PDF file in the Vacation directory
+test-105,container_management,Unload the container in terminal seven
+test-106,lighting_control,Turn on the lights in the bathroom and bedroom on the top floor
+test-107,list,Remove 16 from the list
+test-108,calendar,Delete my 15:00 appointment on Wednesday
+test-109,messenger,mute the chat group with sarah and amy
+test-110,workforce_management,Fire Hugh
+test-111,file_manager,"Move files laptop1998, and laptop4431 from directory ""vacation"" to directory ""college"""
+test-112,list,Move 1 to the top of the list
+test-113,container_management,Remove the three longest bars
+test-114,workforce_management,Change Rita from manager to developer
+test-115,lighting_control,Turn on all lights on floor 1
+test-116,file_manager,"move the file named ""sarah4669"" from the directory ""work"" to the directory ""college"""
+test-117,lighting_control,Turn on the bathroom and bedroom lights on floor 1
+test-118,workforce_management,Fire Tamela and remove Chaya as manager of Tamela
+test-119,file_manager,"Move the red line to between the two black sarah lines on ""College"""
+test-120,calendar,Change Wednesday's 09:00 item color from black to red
+test-121,lighting_control,Turn off all lights on floor 1
+test-122,file_manager,"move the files 'dog7955', 'sarah7356' and 'task2799' to the bottom of the College directory"
+test-123,calendar,Change all calendar appointment colors to blue
+test-124,workforce_management,Change Graysons manager from Michelle to Demetris
+test-125,workforce_management,change darlene's position to QA
+test-126,list,Move the 4 to the bottom of the list
+test-127,workforce_management,change julius's salary to 54048
+test-128,workforce_management,Switch Kendrick from QA to developer
+test-129,list,Delete all numbers except for 11
+test-130,workforce_management,Change Darlenes manager to Connor
+test-131,container_management,Replace the bottom empty container with a same length loaded container
+test-132,container_management,Remove the containers in the first and fourth terminals
+test-133,workforce_management,Make Jessie the manager of Marisol
+test-134,file_manager,"Move the red ""dog"" line to the top of ""Vacation"" and the red ""sarah"" line to the bottom of ""vacation."""
+test-135,container_management,Remove the three brown bars
+test-136,file_manager,"move the file named ""dog4427"" from the directory ""fun"" to the directory ""work"""
+test-137,messenger,Remove the two groups that have nine participants in each
+test-138,calendar,Remove all events from November 10th
+test-139,calendar,Change car wash from blue to red
+test-140,list,Move number 5 to the bottom
+test-141,container_management,Remove the container in terminals one and three
+test-142,workforce_management,change laura's salary to 96863
+test-143,lighting_control,turn on every light in the house
+test-144,lighting_control,Turn off the lights on floor 2 and floor 3
+test-145,calendar,change Wednesday events to blue
+test-146,messenger,Delete the group with Brian and Sarah and delete the group with Robert and Andrew
+test-147,file_manager,"move the file named ""car6348"" from the directory ""fun"" to the directory ""work"""
+test-148,messenger,unmute my first chat group
+test-149,container_management,Remove the longest container
+test-150,calendar,Remove Wednesday's 09:00 event from the calendar
+test-151,messenger,"mute the chat group with kevin, amy, and robert
+mute the chat group with amanda and sarah"
+test-152,workforce_management,"Change Clinton salary from 50,632 to 81,927"
+test-153,workforce_management,Promote Twila to developer
+test-154,calendar,Remove all Thursday events
+test-155,calendar,Change the color of the work out to black
+test-156,calendar,Remove the first two appointments on Wednesday
+test-157,calendar,"Remove my car wash scheduled for Wednesday, 9 Nov"
+test-158,workforce_management,Remove Natalia and Derek from the employee list
+test-159,list,Move 10 below 4
+test-160,messenger,"Mute the chat group that contains Sarah, Peter, Robert and 7 participants"
+test-161,workforce_management,Change Tammie's position from manager to developer
+test-162,messenger,Make a new chat group with Andrew and Adam in it only
+test-163,file_manager,Move the PDF from the Fun directory to the Work directory
+test-164,messenger,"Add a new group with Amanda, Jessica, and Brian in it"
+test-165,workforce_management,Delete the rows for Lia and Conrad
+test-166,file_manager,Delete the jake2003.docx in the Work directory
+test-167,messenger,"Remove the chat group that has Sarah, Brian, and 2 participants"
+test-168,messenger,"Make a new chat group with Amanda, Jessica, and Robert"
+test-169,messenger,Un-mute the group with Jessica and Amy in it
+test-170,list,Move the number 9 from the bottom of the list to the top of the list
+test-171,workforce_management,Change Rosemarie's manager from Shonta to Daryl
+test-172,workforce_management,change conseulo's pay to 50822
+test-173,lighting_control,Turn off the lights in the second floor bedroom and hall
+test-174,container_management,Unload the bottom container
+test-175,lighting_control,Turn off the dining room and kitchen lights on floor 1
+test-176,lighting_control,Turn off all the lights on floor 2
+test-177,calendar,Remove shopping from Wednesday
+test-178,calendar,Keep all events the same
+test-179,lighting_control,"On floor 1 turn of the bathroom and hall light, then go upstairs to floor 2 and turn the bedroom and hall light off"
+test-180,messenger,unmute my third and fourth chat groups
+test-181,lighting_control,Turn off all lights on floor 1
+test-182,container_management,Unload the containers in the second and fifth terminal
+test-183,list,Remove 4 from the list
+test-184,workforce_management,change elton's salary to 83793
+test-185,file_manager,Delete the PDF in the Vacation directory
+test-186,calendar,Delete volleyball on Thursday
+test-187,messenger,Unmute the chat group with Jessica and Sarah
+test-188,lighting_control,turn off all the house lights
+test-189,workforce_management,Change Tawanda and Farah's manager from Cassandra to Dave
+test-190,messenger,"Remove group with Adam, Amanda, Kevin and 10 participants"
+test-191,file_manager,"delete the file named ""jake0067"" from the directory named ""fun"""
+test-192,workforce_management,Change Kenyetta's position to manager
+test-193,container_management,Load the containers in terminals five and six
+test-194,container_management,change the color of the short blue line to gray
+test-195,container_management,"Remove the four shortest bars, leaving just the two longest bars"
+test-196,list,Move number 18 to the bottom position
+test-197,messenger,"Mute chat group with Amy, Jessica, Amanda, and 2 participants"
+test-198,file_manager,delete the file 'dog5224'
+test-199,container_management,unload the top two containers
+test-200,file_manager,"Move all files except task3149 from the ""college"" folder to the ""work"" folder and put them in alpha and numerical order by file name"
+test-201,list,Remove number 7
+test-202,messenger,delete my first two groups
+test-203,workforce_management,Change the manager of Hope and Lorie to Ester
+test-204,file_manager,"Move the red line to the bottom of ""fun"""
+test-205,file_manager,Move the smallest file from the College directory to the Vacation directory
+test-206,workforce_management,"Change Khalid's salary from 43,378 to 62,027"
+test-207,workforce_management,"Change Ericka's salary from 87,515 to 55,301"
+test-208,lighting_control,Turn on all the lights on floor 2 and floor 1
+test-209,list,Move 18 to the bottom of the list
+test-210,file_manager,"Delete car5669 if it's an image file, sara9592.doc, and task4840.txt"
+test-211,container_management,"Load the containers in terminals two, three and four"
+test-212,lighting_control,Turn on all the lights on floor 3
+test-213,calendar,Change Thursday's 08:00 and 09:00 event colors to green
+test-214,file_manager,Move the 'dog 3469' row to the third row in the Work directory
+test-215,messenger,"Mute the Jessica, Sarah, Amanda group"
+test-216,list,Move number 2 to the top
+test-217,container_management,unload the largest container
+test-218,list,Move number 20 down a spot on the list
+test-219,list,Move the number 3 to the top of the list
+test-220,messenger,Mute all groups
+test-221,lighting_control,Turn on all lights on floor 2 and floor 3
+test-222,workforce_management,Change the developer position to manager
+test-223,list,Remove the 3 from the list
+test-224,file_manager,"Delete file jake0378 from directory ""college"""
+test-225,container_management,Load the container in terminal three and four
+test-226,workforce_management,"Fire Reyes, Kate and Gracie"
+test-227,container_management,Load the container in terminal one
+test-228,container_management,Load the containers in terminals one and three
+test-229,calendar,Keep all events
+test-230,workforce_management,Promote Rana to manager
+test-231,container_management,Replace the loaded container with an empty container of the same length
+test-232,container_management,Unload the container in terminal three
+test-233,list,Put the number 19 at the top of the list
+test-234,container_management,"Please leave the three largest containers, the loaded one and the two unloaded ones, here in the terminal and remove the other four from the terminal"
+test-235,workforce_management,Delete the row for Tanna
+test-236,file_manager,"move the laptop2621 and task4593 files into the ""fun"" directory"""
+test-237,list,move 19 to the top of the list
+test-238,container_management,Replace the loaded container at the bottom with an empty one of the same length
+test-239,lighting_control,turn off all lights except for the one in the first floor bathroom
+test-240,calendar,Delete the 08:00 and 10:00 events from Wednesday
+test-241,list,Move number 19 to the top
+test-242,lighting_control,Turn on the family room light on floor 2
+test-243,messenger,"Add chat group with Amy, Robert, and 2 participants"
+test-244,file_manager,"Delete the file ""dog9666"" from the ""College"" directory"
+test-245,workforce_management,Change Josefina's position from developer to QA
+test-246,messenger,Mute the chat group with 9 participants
+test-247,list,Move number 3 to the bottom
+test-248,calendar,Change the color of Thursday's events to blue
+test-249,lighting_control,Turn off all lights on floor 2 and floor 1
+test-250,file_manager,"Move the red ""dog"" line to the top of ""college"" and the red ""sarah"" line to the bottom of ""college."""
+test-251,messenger,"Mute chat group with Amy, Andrew, Brian, and 8 participants"
+test-252,messenger,mute my second chat group
+test-253,messenger,Unmute contact group Amy and Sarah
+test-254,container_management,Load the containers in termainls one and two
+test-255,list,Move 19 to the top of the numbers list
+test-256,file_manager,Move car3829.pdf and dog3215.pdf from the Fun directory to the Work directory
+test-257,list,Move 10 to the bottom of the list
+test-258,file_manager,"Put ""dog"" and ""laptop"" above ""task4199"" and task5019 below"
+test-259,messenger,"Remove chat group with Brian, Robert, and 4 participants"
+test-260,list,Place number 9 at the bottom of the list
+test-261,list,Delete the third and fifth numbers from the list
+test-262,lighting_control,Turn off all lights on floor 3 and floor 1
+test-263,messenger,"Mute the group with Sarah, Amy, and Brian in it"
+test-264,workforce_management,change shari and joelle's managers to destiny
+test-265,file_manager,"delete the file named ""dog4356"" from the directory ""Vacation"""
+test-266,container_management,"Remove the containers from terminals one, two and four"
+test-267,calendar,Remove both Thursday events from the calendar
+test-268,calendar,"Make car wash, jogging and buying a piano red"
+test-269,list,Remove the number 3 from the list
+test-270,lighting_control,turn on all kitchen lights and turn off the lights in the halls on the second and third floors
+test-271,list,Remove all the numbers except for the 3
+test-272,messenger,Mute the chat group with five participants
+test-273,messenger,"Unmute chat group with Adam, Jessica, and 7 participants"
+test-274,calendar,make buying a piano black on Thursday
+test-275,messenger,Create a new chat group with Amy and Robert in the group only
+test-276,lighting_control,Turn off all the lights on all floors
+test-277,list,Move the number 20 to the top of the list
+test-278,lighting_control,Turn on all the lights on all floors
+test-279,messenger,"Remove chat group with Amanda, Amy, Robert, and 7 participants"
+test-280,file_manager,"delete the files named ""car8133"" and ""laptop2838"" from the directory ""fun"""
+test-281,messenger,unmute all my chat groups
+test-282,calendar,Change jogging from black to blue
+test-283,messenger,"Remove all groups, except a muted Peter and Sarah group"
+test-284,lighting_control,turn off every light except for the ones in the first floor hall and living room
+test-285,file_manager,"move the files labeled ""car4668"", ""laptop6703"", and ""sarah8555"" to the directory marked ""vacation"""
+test-286,messenger,add a chat with amanda and sarah
+test-287,messenger,Create new unmuted group with Andrew and Sarah
+test-288,list,Remove numbers 3 and 4
+test-289,container_management,"Of that assortment of loaded and unloaded containers of various sizes, please take the smallest unloaded one out of the terminal and just leave all the others here"
+test-290,calendar,Change all event colors to green except car wash
+test-291,list,Put the 2 at the bottom of the list
+test-292,file_manager,"Add the ""Vacation"" list to ""college"""
+test-293,lighting_control,Turn off the lights on floor 1
+test-294,file_manager,Move files highlighted in red from vacation directory to work directory
+test-295,lighting_control,Turn off all lights on floor 1
+test-296,workforce_management,change jeremy's position to manager
+test-297,messenger,"Save Contacts Amanda, Andrew, Jessica and remove the rest"
+test-298,calendar,Delete buying office supplies from Wednesday
+test-299,workforce_management,change seth's position to QA
+test-300,calendar,Change all events on Wednesday to red
+test-301,list,Remove 20 from the list
+test-302,file_manager,Delete all files except for the PDF
+test-303,file_manager,Move all images to the College directory
+test-304,calendar,Change working out from black to red
+test-305,workforce_management,Change Aaron's position from manager to developer
+test-306,messenger,"Mute the Sarah, Robert, Amanda group"
+test-307,calendar,change the color for 11:00 on Wednesday to green
+test-308,container_management,Unload the longest container that is already loaded
+test-309,container_management,Load the container in the fourth terminal
+test-310,lighting_control,turn on the light in the living room
+test-311,container_management,Replace the longest loaded container with the same length empty container
+test-312,list,Move the 1 to the last place in the list
+test-313,calendar,Change Wednesday's first two event colors from black to red
+test-314,workforce_management,Fire Ravi and Eddie
+test-315,container_management,Remove the containers in the second and third terminals
+test-316,messenger,"Add chat group with Amanda, Brian, and 2 participants"
+test-317,file_manager,Move file highlighted in red text in the college directory
+test-318,calendar,Delete buying a piano on Thursday
+test-319,messenger,mute all chat groups
+test-320,container_management,Remove the longest container
+test-321,container_management,Unload all of the containers except the one on the bottom
+test-322,list,"Remove the following numbers from the list: the 1, the 6, and the 2"
+test-323,lighting_control,Turn off all lights on floor 1
+test-324,container_management,load the container that is second from the bottom
+test-325,workforce_management,Change Ashlea's manager to Jannette
+test-326,container_management,Remove the longest bar
+test-327,calendar,Remove Wednesday's 10:00 item
+test-328,lighting_control,Turn off all lights on floor 2 and floor 1
+test-329,file_manager,delete the files 'task0066' and 'sarah0314'
+test-330,lighting_control,Turn off both lights on floor 1
+test-331,workforce_management,Change the manager to Patricia for all QA positions
+test-332,workforce_management,change danial's salary to 87767
+test-333,messenger,"Delete the chat group containing Robert, Brian, and Stacy"
+test-334,messenger,"mute the chat group with amy, keven, and adam"
+test-335,lighting_control,Turn off all lights on all floors
+test-336,container_management,Remove the containers in the first and fourth containers
+test-337,lighting_control,Turn off the lights on the 3rd and top floor
+test-338,calendar,make buying office supplies on Wednesday black
+test-339,file_manager,Move the file from the Work directory to the Vacation directory
+test-340,workforce_management,"Decrease Kays salary to 63,671"
+test-341,container_management,Remove the container in terminal three
+test-342,lighting_control,turn off all the lights in the house
+test-343,lighting_control,Turn on the lights on floor 1
+test-344,messenger,Remove the groups that have more than 7 participants
+test-345,file_manager,Move jake6781.docx and the sarah0394 image file in the Vacation directory to the College directory
+test-346,lighting_control,Turn off all lights on floor 1 and floor 2
+test-347,file_manager,Move the red dog line to the top of college and red sarah line to the bottom of college
+test-348,file_manager,"Move the ""car"" file names to vacation"
+test-349,calendar,Change all of Wednesday's event colors to red
+test-350,lighting_control,Turn off all the lights on floor 4
+test-351,file_manager,delete the file 'sarah5713'
+test-352,list,Move 18 to the top of the list
+test-353,calendar,There are no changes to be made
+test-354,messenger,"Add chat group with Amanda, Stacy, and 2 participants"
+test-355,file_manager,Move the text file from the Vacation directory into the Work directory
+test-356,container_management,Remove the short loaded container
+test-357,workforce_management,Remove Ruthie from the employee list
+test-358,messenger,unmute my first and third group
+test-359,list,Move number 19 to the bottom
+test-360,file_manager,Move all files to the Work directory except for the largest
+test-361,workforce_management,Fire Charise
+test-362,calendar,Change volleyball's event color from blue to black
+test-363,lighting_control,turn off the second floor lights
+test-364,container_management,Unload the container in terminal three
+test-365,file_manager,Delete sarah0565 from Vacation directory
+test-366,messenger,"Create a new chat group with Jessica, Robert, and Adam"
+test-367,container_management,Load the container in the sixth terminal
+test-368,messenger,"Add group with Robert, Stacy, and 2 participants"
+test-369,list,Remove the 1
+test-370,workforce_management,remove bradly and rustin
+test-371,list,Move the red number to the top keeping the others in the same order
+test-372,file_manager,"Please delete all files in the directory ""work"" and files laptop3005 and sarah5532 from the directory ""college"""
+test-373,messenger,"mute my chat group with sarah, brian, and amanda"
+test-374,container_management,Load the container in terminal two
+test-375,lighting_control,Turn on bathroom light on floor 1
+test-376,lighting_control,turn on the lights in the bedroom and family room
+test-377,workforce_management,Fire Maxine and Carlton
+test-378,file_manager,Remove the red line
+test-379,calendar,Change buying office supplies from black to red
+test-380,container_management,Remove the four shortest bars
+test-381,list,Move the second number to the top
+test-382,calendar,change the color for volleyball and fixing engine to green
+test-383,lighting_control,turn off every light in the house
+test-384,container_management,Load the containers in the first and second terminals
+test-385,workforce_management,Fire everyone but Eliza
+test-386,calendar,Delete all scheduled events on Thursday
+test-387,lighting_control,Turn on all the lights on the top floor and the third floor
+test-388,list,Remove number 19
+test-389,messenger,remove my second and third chat groups
+test-390,list,Delete the bottom three numbers from the list
+test-391,lighting_control,Turn on the lights on floor 3
+test-392,list,"Remove numbers 1,7,12 and 5"
+test-393,file_manager,"move the file named ""task3092"" from the directory labeled ""college"" to the directory labeled ""Work"""
+test-394,workforce_management,Increase Chets salary
+test-395,file_manager,Move the smallest file into the Vacation directory
+test-396,workforce_management,Fire Carl and Callie
+test-397,calendar,Delete renting a car from the calendar
+test-398,container_management,Unload all containers
+test-399,messenger,"Mute chat group with Brian, Stacy, and 4 participants"
+test-400,file_manager,"Delete all files except dog1723 from directory ""work"" and file laptop3867 from directory ""college"""
+test-401,calendar,Cancel all Thursday events
+test-402,lighting_control,Change the first floor bathroom and dining room from grey to brown
+test-403,lighting_control,turn off all the lights on the second floor
+test-404,workforce_management,"Increase Nelson's salary from 53,676 to 83,846"
+test-405,workforce_management,Fire Lenny and Dave
+test-406,container_management,Replace the short empty container with the same length loaded container
+test-407,calendar,Change the color of my 17:00 appointment on the 10th to blue
+test-408,lighting_control,turn on all kitchen and living room lights
+test-409,lighting_control,turn all the lights off in the house
+test-410,messenger,delete my first and last chat group
+test-411,calendar,cancel the 08:00 meeting on Wednesday
+test-412,list,Move the 4 from the second place in the list to the first place in the list
+test-413,calendar,Cancel all events except the 13:00 volleyball on Thursday
+test-414,file_manager,Delete all the red lines
+test-415,workforce_management,change alexandro's salary to 84785
+test-416,calendar,Change Wednesday's meeting from black to blue
+test-417,container_management,Unload the containers in the second and third terminals
+test-418,workforce_management,Change Alia's position from developer to QA
+test-419,file_manager,Move car9389.doc to the Fun directory
+test-420,calendar,Delete all events except jogging
+test-421,list,Put the number 1 at the bottom of the list
+test-422,file_manager,delete the file 'laptop8542'
+test-423,messenger,"Remove the Sarah, Amanda, Jessica group"
+test-424,calendar,cancel events on Thursday
+test-425,container_management,Unload the container in the third terminal
+test-426,calendar,Cancel all events except working out on Thursday
+test-427,calendar,Delete all items from Wednesday and Thursday except buying a piano
+test-428,file_manager,Delete the red lines
+test-429,workforce_management,Get rid of Jeremy
+test-430,calendar,Delete the 13:00 and 16:00 entries on Thursday
+test-431,lighting_control,On floor 3 turn both the bathroom and hall lights on
+test-432,list,Put the 1 at the top of the list
+test-433,list,Move the number 1 to the top of the list
+test-434,container_management,Load the bottom two containers
+test-435,lighting_control,Turn off the lights on the top floor
+test-436,list,Remove the number 20
+test-437,lighting_control,turn the lights on in all the rooms on every floor
+test-438,list,Move the 18 to the bottom of the list
+test-439,container_management,Unload the top container
+test-440,messenger,create a chat with jessica and brian
+test-441,calendar,Delete both Wednesday events
+test-442,container_management,Load the container in terminal one
+test-443,file_manager,"move the file named ""task3255"" from the directory named ""work"" to the directory named ""vacation"""
+test-444,calendar,Remove buying a piano from the calendar
+test-445,calendar,Remove the meeting and car wash on Wednesday
+test-446,workforce_management,Make Sandra a QA
+test-447,calendar,Delete buying a piano from the calendar
+test-448,calendar,Change the color of my last appointment on the 9th to blue
+test-449,list,move 20 to the bottom of the list
+test-450,messenger,"create a chat group with andrew, stacy, and brian"
+test-451,workforce_management,"Change the salary column of Jada's row from 78,721 to 72,745"
+test-452,container_management,Remove the longest container
+test-453,calendar,Delete shopping from Wednesday
+test-454,lighting_control,turn on all the first floor lights
+test-455,list,Move the 3 to the end of the list
+test-456,container_management,Load the container in terminal one
+test-457,list,Move number 20 to the top
+test-458,list,Move number 1 to the top of the list
+test-459,file_manager,"delete the file named ""car6752"" from the directory ""college"""
+test-460,workforce_management,Make Raven Alis manager
+test-461,messenger,"Remove all groups, except the Amanda, Anna, Sarah group"
+test-462,lighting_control,"Go to floor 2 turn the kitchen light on, then go to floor 3 and turn the bathroom and bedroom light on"
+test-463,list,remove 19
+test-464,list,Move 3 to the bottom of the list
+test-465,workforce_management,Make Bethanie a developer
+test-466,messenger,Un-mute the two-person group with Amanda and Brian in it
+test-467,lighting_control,Turn on the lights on floor 2 and floor 1
+test-468,calendar,Change the event color for volleyball to black
+test-469,calendar,Change the color of all events to red except working out
+test-470,lighting_control,Turn off all lights on floor 3 and floor 4
+test-471,workforce_management,Change Christins manager from Ernesto to Brett
+test-472,file_manager,delete the file 'dog5103'
+test-473,calendar,Remove Wednesday's 14:00 and 17:00 items from the calendar
+test-474,calendar,Change volleyball's event color from green to black
+test-475,file_manager,Move the PDF from the Vacation directory to the College directory
+test-476,lighting_control,Turn lights on on both the 2nd and 3rd floors
+test-477,list,Move the number 1 to the bottom of the list
+test-478,container_management,Replace the two long loaded containers with two empty containers of the same length as the replaced containers
+test-479,container_management,Load all of the containers except for the longest unloaded container
+test-480,lighting_control,turn off the light in the first floor bathroom
+test-481,workforce_management,"change the salary number of 95,151 to 60,495"
+test-482,container_management,Load the container in terminal five
+test-483,messenger,"Unmute the Jessica, Amanda contacts"
+test-484,list,"Remove numbers 7,4,1,8 and 10"
+test-485,container_management,Unload all containers but the one 2nd from the top
+test-486,container_management,unload the container that is second from the top
+test-487,file_manager,"move the files named ""laptop3305"" and ""laptop9373"" from the directory named ""college"" to the directory named ""vacation"""
+test-488,messenger,"Unmute the Amy, Brian group"
+test-489,lighting_control,Turn on all the lights on floor 2 and floor 3
+test-490,messenger,"Mute all groups except the Adam, Amanda, Brian group"
+test-491,lighting_control,Turn on the lights on floor 2 and floor 3
+test-492,messenger,"add a chat with jessica, robert, and brian"
+test-493,messenger,Mute both channels that have 4 participants
+test-494,lighting_control,Turn off all lights on floor 2 and floor 1
+test-495,file_manager,Delete the red lines
+test-496,list,move 18 to the top of the list
+test-497,file_manager,Move all files into the Vacation directory
+test-498,workforce_management,"Change the top row salary from 76,369 to 95,641"
+test-499,file_manager,"delete the file ""dog9679"" from the directory ""college"""
+test-500,container_management,Load the container in terminal five
+test-501,lighting_control,turn the lights on in every room but the fourth floor bathroom
+test-502,messenger,"Add chat group with Amanda, Andrew, and 2 particpants"
+test-503,workforce_management,Fire Rondell
+test-504,list,Put the 19 at the bottom of the list
+test-505,calendar,Change the color of the 13:00 Thursday appointment to black
+test-506,list,move 1 to the bottom of the list
+test-507,calendar,Cancel all events except working out and meeting on Wednesday
+test-508,lighting_control,Make sure all lights in the house are on
+test-509,calendar,Remove Wednesday's 11:00 item
+test-510,file_manager,Move the file from the Vacation directory to the Work directory
+test-511,calendar,Delete all items from November 9th
+test-512,lighting_control,Turn on the bathroom light and the hall light on the top floor
+test-513,file_manager,"delete the file named ""laptop1456"" from the directory named ""work"""
+test-514,container_management,Replace the longest empty container with a loaded container of the same length
+test-515,lighting_control,turn on all lights in the house
+test-516,file_manager,"move the file named ""laptop5303"" from the directory ""vacation"" to the directory ""work"""
+test-517,calendar,Change both Wednesday event colors to green
+test-518,workforce_management,change the name of manager of Deven to Leesa
+test-519,file_manager,"Please delete the file laptop8099 from the directory ""fun"""
+test-520,lighting_control,Turn on all lights on all floors except floor 3 bathroom
+test-521,messenger,Remove the mute from the chat group with 7 participants
+test-522,lighting_control,Turn on the lights in the kitchen on floor 4 and bedroom on floor 2
+test-523,container_management,Remove top two loaded containers
+test-524,messenger,Give voice to the two-person group of Andrew and Robert
+test-525,lighting_control,Turn on all the lights on floor 2 and 1
+test-526,messenger,"Make a new group with Amanda, Andrew, and Robert"
+test-527,file_manager,Delete the largest file from the College directory and the largest from the Fun directory
+test-528,messenger,"Add chat group with Adam, Amy, Robert, and 3 participants"
+test-529,lighting_control,Turn off all the lights on floor 2
+test-530,container_management,Load the two containers that are next to the already loaded container
+test-531,file_manager,Delete task3246.txt and all the files in the Work directory
+test-532,file_manager,"Move the file named ""laptop9748"" from the ""vacation"" directory to the ""fun"" directory"
+test-533,container_management,Load top container
+test-534,workforce_management,change the title of position of manager to developer
+test-535,list,"Remove numbers 17,7,15, and 12"
+test-536,lighting_control,"On floor 1 turn the bathroom and hall light off, then go to floor 2 and turn the bathroom and bedroom lights off"
+test-537,calendar,I won't be renting the car on Thursday
+test-538,container_management,"Remove the containers in the second, third and fourth terminals"
+test-539,lighting_control,turn on the first floor lights
+test-540,workforce_management,change lameul's manager to jose
+test-541,container_management,Unload the containers in the first and fifth terminals
+test-542,lighting_control,Turn on all lights on floor 2
+test-543,workforce_management,"Increase Bruce's salary to 95,396"
+test-544,file_manager,Move dog8192.txt from the Vacation directory to the Work directory
+test-545,file_manager,"Delete car0503.txt, dog5005 that is an image file, and dog5357.txt"
+test-546,lighting_control,"Turn off the bathroom and dining room lights on the second floor, and turn off the bathroom and hall lights on the first floor"
+test-547,calendar,Change the color of the Wednesday appointment to blue
+test-548,messenger,Mute all groups except the Amanda and Stacy group
+test-549,container_management,Load the containers in terminal two
+test-550,list,Move 4 to the top of the list
+test-551,calendar,change the color of all events to red except  12:00 on Wednesday
+test-552,container_management,Unload the container in terminal two
+test-553,messenger,"Remove the Amy, Stacy group"
+test-554,list,Move the number 2 to the last place in the list
+test-555,calendar,Delete the appointment at the carwash and take everything off the schedule for Thursday
+test-556,container_management,Load the top and bottom containers
+test-557,calendar,Delete Thursday's last two events
+test-558,calendar,Remove Thursday's item
+test-559,container_management,Unload all of the loaded containers
+test-560,container_management,Unload the container in the first terminal
+test-561,lighting_control,Turn on all the lights on floor 2 and floor 3
+test-562,calendar,Change the color of my first appointment on the 9th to red
+test-563,lighting_control,Turn on the lights on floor 2 and floor 1
+test-564,list,Delete 16 from the list
+test-565,list,move 1 to the bottom of the list
+test-566,calendar,Change all the appointments on Wednesday to black
+test-567,list,Move number 17 to the bottom
+test-568,file_manager,Delete both red lines
+test-569,file_manager,Delete all files except for the image file
+test-570,calendar,"Change the event color for renting a car, buying office supplies, and volleyball to red"
+test-571,workforce_management,Change the manager of Xavier to Dena
+test-572,messenger,"Unmute the group with Amy, Brian, and 3 participants"
+test-573,list,"Remove numbers 2, 8, and 6"
+test-574,workforce_management,change jacinda's position to manager
+test-575,file_manager,Delete all files except for the smallest
+test-576,file_manager,"delete the file ""Dog6629"" from the directory marked ""fun"" and the ""laptop8856"" file from the directory marked ""vacation"""
+test-577,messenger,"Mute the channel with Amy, Robert, and Brian"
+test-578,list,Remove the red number
+test-579,file_manager,Delete all college files and remove laptop3932 from fun directory
+test-580,calendar,Remove Thursday's 15:00 event
+test-581,list,Add a 1 below 17 and a 6 below 16
+test-582,messenger,"Add chat group with Amanda, Robert, Brian, and 3 participants"
+test-583,calendar,Change Wednesday's 12:00 event color from blue to black
+test-584,list,Move number four to the bottom
+test-585,workforce_management,"Increase Lateshas salary to 61,110"
+test-586,calendar,Add working out for 11:00
+test-587,container_management,Remove the two shortest bars
+test-588,messenger,Delete the chat group that has seven participants including Stacy and Kevin
+test-589,calendar,Change my last appointment on Wednesday and the one on Thursday to black
+test-590,file_manager,Delete all files highlighted in red
+test-591,workforce_management,Remove Denisha and Charise from active employee status
+test-592,list,move 1 to the bottom of the list
+test-593,list,Remove the 1
+test-594,list,"Remove numbers 4, 8, and 2"
+test-595,file_manager,Move the PDF from the Fun directory to the College directory
+test-596,list,Move number 4 to the bottom
+test-597,list,Put the 1 at the top of the list
+test-598,lighting_control,Turn off the hall and kitchen lights on floor 1
+test-599,workforce_management,change marcella and arlene's manager to jai
+test-600,container_management,make the longest gray line blue
+test-601,calendar,Delete all items from the schedule except car wash
+test-602,lighting_control,Turn off the bathroom light and the bedroom light on the top floor
+test-603,calendar,Delete Thursday's 16:00 event
+test-604,calendar,Make all events green except for shopping on Thursday
+test-605,container_management,Load the container in the third terminal
+test-606,container_management,load up all of the containers
+test-607,list,"Remove numbers 3,12,11,14, and 2"
+test-608,messenger,create a group with sarah and kevin
+test-609,calendar,delete working out on Wednesday
+test-610,list,Remove number 12
+test-611,messenger,"Add chat group with Jessica, Kevin, Brian, and 3 other participants"
+test-612,container_management,Remove the container in terminal one
+test-613,container_management,Remove both loaded containers
+test-614,calendar,Delete all events on Nov 9
+test-615,calendar,Change all events to green except for buying piano and volleyball
+test-616,calendar,Change all Thursday event colors from black to red
+test-617,workforce_management,Make Lyndsay manager of Torrance and Orion
+test-618,list,Move number 14 to the top
+test-619,lighting_control,Turn off the bedroom and hall lights on floor 1
+test-620,lighting_control,Turn on all lights on floor 1
+test-621,messenger,"Mute Contacts Robert, Jessica, Amanda"
+test-622,workforce_management,change the name of managers of Elijah and Rosalva to Eli
+test-623,calendar,Change all event colors to blue except volleyball
+test-624,lighting_control,Turn on all the lights on floor 1
+test-625,file_manager,"Move the red line to the top of ""college."""
+test-626,file_manager,Move the row 'task4618' from the College directory to the bottom of the Work directory
+test-627,lighting_control,Turn on the lights on floor 2
+test-628,lighting_control,turn off all of the lights on floor 2
+test-629,calendar,Delete everything until the car rental on Thurs
+test-630,lighting_control,turn off all the lights but the one in the hall
+test-631,list,Move number 11 up one slot
+test-632,container_management,Load the three longest containers
+test-633,messenger,unmute all chat groups except the second one
+test-634,lighting_control,Turn on all lights on floor 2 and floor 3
+test-635,list,Move number 20 to the bottom
+test-636,file_manager,"move the file named ""task4765"" from the directory named ""college"" to the directory named ""work"""
+test-637,container_management,"Remove the containers in the first, second, fourth and fifth terminals"
+test-638,file_manager,Delete the red line
+test-639,messenger,"Create new unmuted group with Jessica, sarah and kevin"
+test-640,list,Move number 6 to the top
+test-641,workforce_management,"Increase Deric's salary to 95,857"
+test-642,workforce_management,Fire Alphonso and and take the manager position away from Elvia
+test-643,list,Remove the number 18 from the list
+test-644,messenger,"Mute chat group Amanda, Robert, Jessica, and 8 participants"
+test-645,list,Move number 20 to the bottom
+test-646,container_management,Load the containers in the third and fourth terminals
+test-647,list,Move the number 8 to the top
+test-648,calendar,Change the color of my first Wednesday appointment to black
+test-649,file_manager,Remove the red lines
+test-650,file_manager,"Move the red line to the top of ""vacation"""
+test-651,container_management,load the bottom container
+test-652,messenger,"Remove the chat group that has Amanda, Brian, and 2 participants"
+test-653,workforce_management,Change the manager of Roxanne and Karey to Gil
+test-654,lighting_control,turn every light in the house off
+test-655,lighting_control,Turn off all the lights on floor 1
+test-656,workforce_management,"remove Simeon, Carie, and Niya with all their respective information"
+test-657,workforce_management,change shad and roseanna's managers to ana
+test-658,container_management,Remove the top bar
+test-659,list,Move number 3 to the bototm
+test-660,container_management,Remove the longest empty container
+test-661,container_management,"Remove the containers in the first, second and third terminals"
+test-662,lighting_control,Turn on all the lights on the top and third floor
+test-663,list,remove all numbers greater than 16
+test-664,lighting_control,Turn off all lights on floor 1 and floor 2
+test-665,container_management,Unload the container in the third terminal
+test-666,workforce_management,Fire Marcy and take Moises off of managing Marcy
+test-667,calendar,Delete buying office supplies from the schedule
+test-668,messenger,delete all my groups except the first
+test-669,workforce_management,change the title of position of QA to manager
+test-670,lighting_control,Turn off all lights on all floors except the bathroom light on floor 1
+test-671,calendar,Remove fixing engine and renting a car from the calendar
+test-672,workforce_management,"Change Vicki's salary to 44,803"
+test-673,messenger,"Mute the chat group containing Stacy, Robert, and Sarah"
+test-674,file_manager,Delete task5392.docx and sarah8873.txt
+test-675,workforce_management,Make Clayton a QA
+test-676,container_management,"Load the containers in the second, fourth and fifth terminals"
+test-677,lighting_control,Turn off all the lights on floors 2 and 3
+test-678,messenger,mute my first and second group
+test-679,list,Move 2 to the top of the list
+test-680,messenger,"Take chat group with Robert, Andrew, Kevin off mute"
+test-681,lighting_control,Turn off the lights on floor 2 and floor 3
+test-682,calendar,Remove Thursday's 11:00 workout from the calendar
+test-683,messenger,Mute the chat group with five participants

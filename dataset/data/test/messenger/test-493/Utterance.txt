@@ -1,0 +1,1 @@
+﻿Mute both channels that have 4 participants

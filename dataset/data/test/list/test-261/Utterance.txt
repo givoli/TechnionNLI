@@ -1,0 +1,1 @@
+﻿Delete the third and fifth numbers from the list

@@ -1,0 +1,1 @@
+﻿Change all calendar appointment colors to blue

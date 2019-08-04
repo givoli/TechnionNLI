@@ -1,0 +1,1 @@
+﻿Change all scheduled event colors to red except buying a piano

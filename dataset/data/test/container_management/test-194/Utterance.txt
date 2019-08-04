@@ -1,0 +1,1 @@
+﻿change the color of the short blue line to gray

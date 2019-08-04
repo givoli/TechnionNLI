@@ -1,0 +1,1 @@
+﻿Remove numbers 7,4,1,8 and 10

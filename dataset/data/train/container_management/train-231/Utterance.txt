@@ -1,0 +1,1 @@
+﻿Remove the unloaded container from the third terminal

@@ -1,0 +1,1 @@
+﻿Move all files from directory 'college" to  directory "fun"

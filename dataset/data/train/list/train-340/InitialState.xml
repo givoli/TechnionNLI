@@ -1,0 +1,114 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList</rootEntityClassName>
+    <id>list</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>3</int>
+        <string>SpecialList.moveToEnd</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList</declaringClassCanonicalName>
+          <name>moveToEnd</name>
+          <parameterClassNames>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>SpecialList.remove</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList</declaringClassCanonicalName>
+          <name>remove</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>SpecialList.moveToBeginning</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList</declaringClassCanonicalName>
+          <name>moveToBeginning</name>
+          <parameterClassNames>
+            <string>il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList">
+    <elements>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+        <value>4</value>
+      </il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+        <value>18</value>
+      </il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+        <value>10</value>
+      </il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+        <value>5</value>
+      </il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+        <value>9</value>
+      </il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+        <value>11</value>
+      </il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement>
+    </elements>
+    <firstElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement"/>
+    <lastElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[6]"/>
+  </rootEntity>
+  <nextIdToGive>8</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>12</threshold>
+      </default>
+      <int>16</int>
+      <int>7</int>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[6]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[5]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[4]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[3]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[2]"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>7</size>
+      </default>
+      <int>7</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[6]"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[4]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[3]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[5]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/elements/il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement[2]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

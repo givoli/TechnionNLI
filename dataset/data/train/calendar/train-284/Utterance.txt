@@ -1,0 +1,1 @@
+﻿Change the color of all appointments on Thursday to red

@@ -1,0 +1,1 @@
+﻿Turn off all lights on all floors except the bathroom light on floor 1

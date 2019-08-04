@@ -1,0 +1,7 @@
+This notice file was added by Ofer Givoli (it is not part of the original Sempre package).
+
+The content of this directory is a derivative work based on SEMPRE 2.1 which was downloaded from:
+	https://github.com/percyliang/sempre
+
+We have removed and modified many of the files of SEMPRE 2.1.
+

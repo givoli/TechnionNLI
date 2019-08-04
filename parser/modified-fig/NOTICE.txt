@@ -1,0 +1,4 @@
+This notice file was added by Ofer Givoli (it is not part of the original fig package).
+
+The content of this directory is the fig library (https://github.com/percyliang/fig), after some modifications we have done in it (we have removed and modified some files).
+

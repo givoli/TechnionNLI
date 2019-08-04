@@ -1,0 +1,1 @@
+﻿Change the color of all events to red except working out

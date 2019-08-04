@@ -1,0 +1,1 @@
+﻿Remove the 13:00, 14:00, and 17:00 events from Thursday

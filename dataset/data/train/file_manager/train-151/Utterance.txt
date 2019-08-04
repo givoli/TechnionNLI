@@ -1,0 +1,1 @@
+﻿delete the file named "jake9772" from the directory "college" and delete the file named "car3798" from the directory named "fun"

@@ -1,0 +1,1 @@
+﻿Remove the groups that have more than 7 participants

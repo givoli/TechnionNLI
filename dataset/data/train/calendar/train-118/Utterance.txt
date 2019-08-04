@@ -1,0 +1,1 @@
+﻿Make all events blue except 17:00 on Thursday

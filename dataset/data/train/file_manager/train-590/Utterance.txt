@@ -1,0 +1,1 @@
+﻿delete the files "laptop2386" and "laptop6911" from the directory marked "work"

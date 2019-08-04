@@ -1,0 +1,1 @@
+﻿delete the file "dog9679" from the directory "college"

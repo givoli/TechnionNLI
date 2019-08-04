@@ -1,0 +1,1 @@
+﻿delete the files named "laptop0166" and "laptop7568" from the directory named "fun"

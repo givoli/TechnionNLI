@@ -1,0 +1,1 @@
+﻿delete the file named "jake0067" from the directory named "fun"

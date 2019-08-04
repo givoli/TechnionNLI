@@ -1,0 +1,194 @@
+﻿<il.ac.technion.nlp.nli.core.state.State>
+  <domain>
+    <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger</rootEntityClassName>
+    <id>messenger</id>
+    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+      <unserializable-parents/>
+      <map>
+        <default>
+          <loadFactor>0.75</loadFactor>
+          <threshold>12</threshold>
+        </default>
+        <int>16</int>
+        <int>4</int>
+        <string>Messenger.createChatGroup</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger</declaringClassCanonicalName>
+          <name>createChatGroup</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>Messenger.muteChatGroups</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger</declaringClassCanonicalName>
+          <name>muteChatGroups</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>Messenger.unmuteChatGroups</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger</declaringClassCanonicalName>
+          <name>unmuteChatGroups</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+        <string>Messenger.deleteChatGroups</string>
+        <il.ac.technion.nlp.nli.core.method__call.MethodId>
+          <declaringClassCanonicalName>il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger</declaringClassCanonicalName>
+          <name>deleteChatGroups</name>
+          <parameterClassNames>
+            <string>java.util.Collection</string>
+          </parameterClassNames>
+        </il.ac.technion.nlp.nli.core.method__call.MethodId>
+      </map>
+    </friendlyIdToMethodId>
+  </domain>
+  <rootEntity class="il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger">
+    <chatGroups class="linked-list">
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+        <contacts>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Kevin</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Robert</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Peter</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+        </contacts>
+        <muted>false</muted>
+        <participantsNumber>8</participantsNumber>
+      </il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+        <contacts>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Sarah</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[2]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Amanda</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+        </contacts>
+        <muted>false</muted>
+        <participantsNumber>6</participantsNumber>
+      </il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+        <contacts>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Andrew</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+            <firstName>Amy</firstName>
+          </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+        </contacts>
+        <muted>true</muted>
+        <participantsNumber>5</participantsNumber>
+      </il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+        <contacts>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+          <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+        </contacts>
+        <muted>true</muted>
+        <participantsNumber>2</participantsNumber>
+      </il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup>
+    </chatGroups>
+    <contacts>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+        <firstName>Brian</firstName>
+      </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[2]"/>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+        <firstName>Jessica</firstName>
+      </il.ac.technion.nlp.nli.dataset1.domains.messenger.User>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+    </contacts>
+  </rootEntity>
+  <nextIdToGive>15</nextIdToGive>
+  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <unserializable-parents/>
+    <map>
+      <default>
+        <loadFactor>0.75</loadFactor>
+        <threshold>24</threshold>
+      </default>
+      <int>32</int>
+      <int>14</int>
+      <string>11</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[4]"/>
+      <string>12</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]"/>
+      <string>13</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]"/>
+      <string>14</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[8]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[2]"/>
+      <string>8</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>9</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>10</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+    </map>
+  </entityIdToEntity>
+  <entityToEntityId serialization="custom">
+    <unserializable-parents/>
+    <java.util.IdentityHashMap>
+      <default>
+        <size>14</size>
+      </default>
+      <int>14</int>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]"/>
+      <string>12</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>10</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[2]"/>
+      <string>7</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>9</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[8]"/>
+      <string>3</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <string>2</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>6</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <string>5</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User"/>
+      <string>8</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[4]"/>
+      <string>11</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity"/>
+      <string>1</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[2]"/>
+      <string>13</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.User reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup[3]/contacts/il.ac.technion.nlp.nli.dataset1.domains.messenger.User[3]"/>
+      <string>4</string>
+      <il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup reference="/il.ac.technion.nlp.nli.core.state.State/rootEntity/chatGroups/il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup"/>
+      <string>14</string>
+    </java.util.IdentityHashMap>
+  </entityToEntityId>
+</il.ac.technion.nlp.nli.core.state.State>

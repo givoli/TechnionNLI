@@ -1,0 +1,1 @@
+﻿delete the file named "laptop7315" from the directory "college"

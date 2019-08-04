@@ -1,0 +1,1 @@
+﻿Remove numbers 1,7,12 and 5

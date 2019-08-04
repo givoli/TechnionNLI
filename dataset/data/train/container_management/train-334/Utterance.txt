@@ -1,0 +1,1 @@
+﻿Add an unloaded container below the first, a loaded container below that, a loaded container in the fourth slot and an uloaded container in the last terminal

@@ -1,0 +1,1 @@
+﻿delete the file "Dog6629" from the directory marked "fun" and the "laptop8856" file from the directory marked "vacation"

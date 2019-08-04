@@ -1,0 +1,1 @@
+﻿Turn on all lights on all floors except floor 3 bathroom

@@ -1,0 +1,1 @@
+﻿move the file named "task4765" from the directory named "college" to the directory named "work"

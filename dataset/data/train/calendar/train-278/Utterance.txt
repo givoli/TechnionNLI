@@ -1,0 +1,1 @@
+﻿Remove all the appointments after the 9 o clock one

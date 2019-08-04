@@ -1,0 +1,1 @@
+﻿Delete the smallest file from the Vacation directory

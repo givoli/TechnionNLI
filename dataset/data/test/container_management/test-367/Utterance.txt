@@ -1,0 +1,1 @@
+﻿Load the container in the sixth terminal

@@ -1,0 +1,1 @@
+﻿delete the files named "jake8729" and "sarah9807" from the directory "fun"

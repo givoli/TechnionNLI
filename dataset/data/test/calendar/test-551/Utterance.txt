@@ -1,0 +1,1 @@
+﻿change the color of all events to red except  12:00 on Wednesday
