@@ -48,7 +48,7 @@ Also, see the `dataset\app-code\resources\MTurk` directory for useful resources.
 
 ## Building the Project
 
-You can build the project with Maven:
+You can build the project with Maven, using the command:
 ```
 mvn compile
 ```
