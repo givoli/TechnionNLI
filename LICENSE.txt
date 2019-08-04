@@ -1,0 +1,19 @@
+-----------------------------------------
+The MIT License
+
+Copyright 2018 Technion - Israel Institute of Technology
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-----------------------------------------
+The content of the "dataset/data" directory is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+-----------------------------------------
+The content of the "parser/nli-parser/modified-sempre" directory is a derivative work based on SEMPRE 2.1 (https://github.com/percyliang/sempre). SEMPRE 2.1 is licensed under the Apache License, Version 2.0 (a copy of this license is provided in the following file: "docs/Apache License 2.0.txt").
+-----------------------------------------
+The content of the "parser/modified-fig" directory is the fig library by Percy Liang, after being modified by us. The fig library is licensed under the MIT License (MIT) (see the LICENSE file in that directory).
+-----------------------------------------
+The content of the "lib/ojavalib" directory is a Java library by Ofer Givoli, and is licensed under The MIT License (see the LICENSE.txt file in that directory).
+-----------------------------------------
