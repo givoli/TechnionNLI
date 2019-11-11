@@ -57,11 +57,12 @@ mvn compile
 ## Citation
 If you use this code/data for academic work, please cite:
 ```
-@inproceedings{givoli2019zero,
-  author={Ofer Givoli and Roi Reichart}
-  title={Zero-Shot Semantic Parsing for Instructions},
-  booktitle={ACL},
-  year={2019}
+@inproceedings{givoli-reichart-2019-zero,
+    title = "Zero-Shot Semantic Parsing for Instructions",
+    author = "Givoli, Ofer  and  Reichart, Roi",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    year = "2019",
+    pages = "4454--4464",
 }
 ```
 
