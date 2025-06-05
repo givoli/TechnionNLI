@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.parser.experiment.analysis;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.string.StringManager;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.string.StringManager;
 import edu.stanford.nlp.sempre.Params;
 import il.ac.technion.nlp.nli.parser.NliMethodCallFormula;
 import org.apache.commons.lang3.tuple.ImmutablePair;

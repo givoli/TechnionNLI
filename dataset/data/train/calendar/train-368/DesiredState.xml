@@ -2,7 +2,7 @@
   <domain>
     <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar</rootEntityClassName>
     <id>calendar</id>
-    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <friendlyIdToMethodId class="ofergivoli.olib.data_structures.map.SafeHashMap" serialization="custom">
       <unserializable-parents/>
       <map>
         <default>
@@ -75,7 +75,7 @@
     </events>
   </rootEntity>
   <nextIdToGive>10</nextIdToGive>
-  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+  <entityIdToEntity class="ofergivoli.olib.data_structures.map.SafeHashMap" serialization="custom">
     <unserializable-parents/>
     <map>
       <default>

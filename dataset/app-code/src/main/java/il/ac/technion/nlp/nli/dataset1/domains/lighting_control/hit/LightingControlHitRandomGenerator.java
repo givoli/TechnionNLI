@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1.domains.lighting_control.hit;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightMode;
 import il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightingControlSystem;
 import il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.Room;

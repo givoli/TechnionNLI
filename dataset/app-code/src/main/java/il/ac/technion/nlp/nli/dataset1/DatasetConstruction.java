@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.dataset1;
 
-import com.ofergivoli.ojavalib.io.GeneralFileUtils;
-import com.ofergivoli.ojavalib.io.serialization.xml.XStreamSerialization;
-import com.ofergivoli.ojavalib.time.TemporalFormat;
+import ofergivoli.olib.io.GeneralFileUtils;
+import ofergivoli.olib.io.serialization.xml.XStreamSerialization;
+import ofergivoli.olib.time.TemporalFormat;
 import il.ac.technion.nlp.nli.core.dataset.Dataset;
 import il.ac.technion.nlp.nli.core.dataset.construction.Hit;
 import il.ac.technion.nlp.nli.core.dataset.construction.HitConstructionSettings;

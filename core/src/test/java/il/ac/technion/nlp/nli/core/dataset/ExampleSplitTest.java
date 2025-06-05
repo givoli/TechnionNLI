@@ -1,9 +1,9 @@
 package il.ac.technion.nlp.nli.core.dataset;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.core.dataset.construction.ExampleCategory;
 import il.ac.technion.nlp.nli.core.dataset.construction.InstructionQueryability;
 import il.ac.technion.nlp.nli.core.method_call.MethodId;

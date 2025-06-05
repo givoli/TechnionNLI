@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1.domains.container_management.hit;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.core.method_call.MethodCall;
 import il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContentState;
 import il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ShippingContainer;

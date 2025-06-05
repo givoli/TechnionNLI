@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.dataset1.domains.messenger.hit;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.string.StringManager;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.string.StringManager;
 import il.ac.technion.nlp.nli.dataset1.domains.messenger.ChatGroup;
 import il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger;
 import il.ac.technion.nlp.nli.core.state.State;

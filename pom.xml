@@ -11,7 +11,7 @@
         <module>core</module>
         <module>dataset/app-code</module>
         <module>parser</module>
-        <module>lib/ojavalib</module>
+        <module>lib/olib</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -1,12 +1,12 @@
 package il.ac.technion.nlp.nli.core.dataset;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.map.Maps;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.io.log.Log;
+import ofergivoli.olib.data_structures.map.Maps;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.io.log.Log;
 import il.ac.technion.nlp.nli.core.dataset.construction.ExampleCategory;
 import org.jetbrains.annotations.Nullable;
 

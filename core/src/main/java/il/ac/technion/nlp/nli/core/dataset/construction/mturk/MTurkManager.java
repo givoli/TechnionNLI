@@ -1,11 +1,11 @@
 package il.ac.technion.nlp.nli.core.dataset.construction.mturk;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.exceptions.UncheckedFileNotFoundException;
-import com.ofergivoli.ojavalib.io.GeneralFileUtils;
-import com.ofergivoli.ojavalib.io.TextIO;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.exceptions.UncheckedFileNotFoundException;
+import ofergivoli.olib.io.GeneralFileUtils;
+import ofergivoli.olib.io.TextIO;
 import il.ac.technion.nlp.nli.core.dataset.Domain;
 import il.ac.technion.nlp.nli.core.dataset.Example;
 import il.ac.technion.nlp.nli.core.dataset.ExampleCorrectness;
@@ -166,7 +166,7 @@ public class MTurkManager {
         final String CORRECT_HEADER = "Correct";
         final String PROBLEMATIC_HEADER = "Problematic";
 
-        // TODO: factor out this useful CSV logic to ojavalib (each record should be a map, null values not allowed).
+        // TODO: factor out this useful CSV logic to olib (each record should be a map, null values not allowed).
         CSVFormat csvFormat = CSVFormat.DEFAULT.withHeader().withSkipHeaderRecord();
         try (CSVParser csvParser = csvFormat.parse(new FileReader(csv))) {
             for (CSVRecord record : csvParser) {

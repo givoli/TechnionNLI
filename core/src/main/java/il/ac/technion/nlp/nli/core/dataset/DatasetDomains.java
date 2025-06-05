@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.core.dataset;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
 import il.ac.technion.nlp.nli.core.state.NliRootEntity;
 import org.jetbrains.annotations.NotNull;
 

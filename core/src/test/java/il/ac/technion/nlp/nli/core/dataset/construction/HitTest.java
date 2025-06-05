@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.dataset.construction;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.core.dataset.simple_test_domain.SimpleSocialNetwork;
 import il.ac.technion.nlp.nli.core.dataset.simple_test_domain.User;
 import il.ac.technion.nlp.nli.core.dataset.visualization.StateVisualizer;

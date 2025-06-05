@@ -1,6 +1,6 @@
 package il.ac.technion.nlp.nli.dataset1.domains.messenger;
 
-import com.ofergivoli.ojavalib.io.log.Log;
+import ofergivoli.olib.io.log.Log;
 import il.ac.technion.nlp.nli.core.EnableNli;
 import il.ac.technion.nlp.nli.core.NliDescriptions;
 import il.ac.technion.nlp.nli.core.method_call.InvalidNliMethodInvocation;

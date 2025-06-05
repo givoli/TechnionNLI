@@ -1,6 +1,6 @@
 package il.ac.technion.nlp.nli.parser.experiment.analysis;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
 import com.thoughtworks.xstream.XStream;
 
 import java.io.Serializable;

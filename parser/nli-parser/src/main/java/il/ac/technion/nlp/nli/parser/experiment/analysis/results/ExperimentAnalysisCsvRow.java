@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.parser.experiment.analysis.results;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.io.csv.CsvContent;
-import com.ofergivoli.ojavalib.io.csv.CsvDataCell;
+import ofergivoli.olib.io.csv.CsvContent;
+import ofergivoli.olib.io.csv.CsvDataCell;
 import il.ac.technion.nlp.nli.core.dataset.ExampleSplit;
 import il.ac.technion.nlp.nli.parser.EnvironmentSettings;
 import il.ac.technion.nlp.nli.parser.experiment.ExperimentSettings;

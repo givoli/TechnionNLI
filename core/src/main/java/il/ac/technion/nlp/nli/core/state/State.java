@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.core.state;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeIdentityHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeIdentityHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
 import il.ac.technion.nlp.nli.core.dataset.Domain;
 import il.ac.technion.nlp.nli.core.reflection.EntityGraphReflection;
 import il.ac.technion.nlp.nli.core.state.knowledgebase.GraphKb;

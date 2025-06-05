@@ -2,7 +2,7 @@
   <domain>
     <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.messenger.Messenger</rootEntityClassName>
     <id>messenger</id>
-    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <friendlyIdToMethodId class="ofergivoli.olib.data_structures.map.SafeHashMap" serialization="custom">
       <unserializable-parents/>
       <map>
         <default>
@@ -109,7 +109,7 @@
     </contacts>
   </rootEntity>
   <nextIdToGive>13</nextIdToGive>
-  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+  <entityIdToEntity class="ofergivoli.olib.data_structures.map.SafeHashMap" serialization="custom">
     <unserializable-parents/>
     <map>
       <default>

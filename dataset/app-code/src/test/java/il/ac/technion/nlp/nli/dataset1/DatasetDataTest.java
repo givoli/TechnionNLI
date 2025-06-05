@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.dataset1;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.io.serialization.SerializationUtils;
-import com.ofergivoli.ojavalib.io.serialization.xml.XStreamSerialization;
+import ofergivoli.olib.io.serialization.SerializationUtils;
+import ofergivoli.olib.io.serialization.xml.XStreamSerialization;
 import il.ac.technion.nlp.nli.core.dataset.Dataset;
 import il.ac.technion.nlp.nli.core.dataset.ExampleSplit;
 import org.junit.Test;

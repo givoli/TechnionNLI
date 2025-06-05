@@ -1,9 +1,9 @@
 package il.ac.technion.nlp.nli.core.dataset.visualization.html;
 
-import com.ofergivoli.ojavalib.general.CommandRunner;
-import com.ofergivoli.ojavalib.io.GeneralFileUtils;
-import com.ofergivoli.ojavalib.io.TextIO;
-import com.ofergivoli.ojavalib.io.binary_files.PngFileInMemo;
+import ofergivoli.olib.general.CommandRunner;
+import ofergivoli.olib.io.GeneralFileUtils;
+import ofergivoli.olib.io.TextIO;
+import ofergivoli.olib.io.binary_files.PngFileInMemo;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 

@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1.domains.workforce_management.hit;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.Employee;
 import il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities.WorkforceManagementSystem;
 import il.ac.technion.nlp.nli.core.state.State;

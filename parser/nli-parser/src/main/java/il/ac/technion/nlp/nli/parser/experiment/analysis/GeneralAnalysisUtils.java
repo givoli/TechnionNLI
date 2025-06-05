@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.parser.experiment.analysis;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
 import edu.stanford.nlp.sempre.Derivation;
 import edu.stanford.nlp.sempre.Formula;
 

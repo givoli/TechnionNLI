@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.core.reflection;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.io.log.Log;
-import com.ofergivoli.ojavalib.reflection.ReflectionUtils;
+import ofergivoli.olib.io.log.Log;
+import ofergivoli.olib.reflection.ReflectionUtils;
 import il.ac.technion.nlp.nli.core.dataset.Domain;
 import il.ac.technion.nlp.nli.core.EnableNli;
 import il.ac.technion.nlp.nli.core.dataset.DatasetDomains;

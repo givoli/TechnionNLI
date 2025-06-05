@@ -2,7 +2,7 @@
   <domain>
     <rootEntityClassName>il.ac.technion.nlp.nli.dataset1.domains.lighting_control.entities.LightingControlSystem</rootEntityClassName>
     <id>lighting_control</id>
-    <friendlyIdToMethodId class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+    <friendlyIdToMethodId class="ofergivoli.olib.data_structures.map.SafeHashMap" serialization="custom">
       <unserializable-parents/>
       <map>
         <default>
@@ -55,7 +55,7 @@
     </rooms>
   </rootEntity>
   <nextIdToGive>6</nextIdToGive>
-  <entityIdToEntity class="com.ofergivoli.ojavalib.data_structures.map.SafeHashMap" serialization="custom">
+  <entityIdToEntity class="ofergivoli.olib.data_structures.map.SafeHashMap" serialization="custom">
     <unserializable-parents/>
     <map>
       <default>

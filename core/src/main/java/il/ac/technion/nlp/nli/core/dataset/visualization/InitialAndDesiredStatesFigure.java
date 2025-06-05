@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.dataset.visualization;
 
-import com.ofergivoli.ojavalib.io.TextIO;
-import com.ofergivoli.ojavalib.io.binary_files.PngFileInMemo;
+import ofergivoli.olib.io.TextIO;
+import ofergivoli.olib.io.binary_files.PngFileInMemo;
 import il.ac.technion.nlp.nli.core.dataset.construction.HitConstructionSettings;
 import il.ac.technion.nlp.nli.core.dataset.visualization.html.HtmlString;
 import il.ac.technion.nlp.nli.core.dataset.visualization.html.HtmlVisualizer;

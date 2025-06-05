@@ -1,11 +1,11 @@
 package il.ac.technion.nlp.nli.parser.features;
 
-import com.ofergivoli.ojavalib.data_structures.map.Maps;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeLinkedHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.map.Maps;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeLinkedHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import edu.stanford.nlp.sempre.NameValue;
 import edu.stanford.nlp.sempre.Value;
 import edu.stanford.nlp.sempre.tables.StringNormalizationUtils;

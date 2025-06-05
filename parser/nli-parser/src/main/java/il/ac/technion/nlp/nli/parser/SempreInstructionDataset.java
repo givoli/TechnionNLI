@@ -1,6 +1,6 @@
 package il.ac.technion.nlp.nli.parser;
 
-import com.ofergivoli.ojavalib.io.log.Log;
+import ofergivoli.olib.io.log.Log;
 import edu.stanford.nlp.sempre.ContextValue;
 import edu.stanford.nlp.sempre.Dataset;
 import edu.stanford.nlp.sempre.Example.Builder;

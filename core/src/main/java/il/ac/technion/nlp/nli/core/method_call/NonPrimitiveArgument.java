@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.method_call;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.core.state.NliEntity;
 import il.ac.technion.nlp.nli.core.state.State;
 

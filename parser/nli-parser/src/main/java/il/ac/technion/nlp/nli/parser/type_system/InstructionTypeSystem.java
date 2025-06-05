@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.parser.type_system;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeBiMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashBiMap;
+import ofergivoli.olib.data_structures.map.SafeBiMap;
+import ofergivoli.olib.data_structures.map.SafeHashBiMap;
 import edu.stanford.nlp.sempre.CanonicalNames;
 import edu.stanford.nlp.sempre.NameValue;
 import edu.stanford.nlp.sempre.SemType;

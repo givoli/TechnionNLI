@@ -1,9 +1,9 @@
 package il.ac.technion.nlp.nli.parser.general;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import edu.stanford.nlp.sempre.Parser;
 import il.ac.technion.nlp.nli.core.dataset.Example;
 import il.ac.technion.nlp.nli.core.dataset.ExampleSplit;

@@ -166,18 +166,18 @@ extends java.lang.Object</pre>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/kb/GraphKbWithSempreTypes.html#getAllRelations-boolean-">getAllRelations</a></span>(boolean&nbsp;deterministicOrder)</code>&nbsp;</td>
 </tr>
 <tr id="i3" class="rowColor">
-<td class="colFirst"><code>java.util.function.Function&lt;edu.stanford.nlp.sempre.Value,com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;? extends edu.stanford.nlp.sempre.Value&gt;&gt;</code></td>
+<td class="colFirst"><code>java.util.function.Function&lt;edu.stanford.nlp.sempre.Value,ofergivoli.olib.data_structures.set.SafeSet&lt;? extends edu.stanford.nlp.sempre.Value&gt;&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/kb/GraphKbWithSempreTypes.html#getRelationAsFunction-edu.stanford.nlp.sempre.NameValue-boolean-">getRelationAsFunction</a></span>(edu.stanford.nlp.sempre.NameValue&nbsp;relation,
                      boolean&nbsp;inverse)</code>&nbsp;</td>
 </tr>
 <tr id="i4" class="altColor">
-<td class="colFirst"><code>com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.Value&gt;&gt;&gt;</code></td>
+<td class="colFirst"><code>ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,ofergivoli.olib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.Value&gt;&gt;&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/kb/GraphKbWithSempreTypes.html#getRelationToFirstArgToSecondArgs--">getRelationToFirstArgToSecondArgs</a></span>()</code>
 <div class="block">Same documentation as for <a href="../../../../../../../il/ac/technion/nlp/nli/parser/kb/GraphKbWithSempreTypes.html#getRelationToSecondArgToFirstArgs--"><code>getRelationToSecondArgToFirstArgs()</code></a></div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
-<td class="colFirst"><code>com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.Value,com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.NameValue&gt;&gt;&gt;</code></td>
+<td class="colFirst"><code>ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.Value,ofergivoli.olib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.NameValue&gt;&gt;&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/kb/GraphKbWithSempreTypes.html#getRelationToSecondArgToFirstArgs--">getRelationToSecondArgToFirstArgs</a></span>()</code>
 <div class="block">In the returned data structure:
  - All <code>SafeMap</code> and <code>SafeSet</code> objects in the returned data structure are not empty.</div>
@@ -264,7 +264,7 @@ extends java.lang.Object</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>getRelationToFirstArgToSecondArgs</h4>
-<pre>public&nbsp;com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.Value&gt;&gt;&gt;&nbsp;getRelationToFirstArgToSecondArgs()</pre>
+<pre>public&nbsp;ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,ofergivoli.olib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.Value&gt;&gt;&gt;&nbsp;getRelationToFirstArgToSecondArgs()</pre>
 <div class="block">Same documentation as for <a href="../../../../../../../il/ac/technion/nlp/nli/parser/kb/GraphKbWithSempreTypes.html#getRelationToSecondArgToFirstArgs--"><code>getRelationToSecondArgToFirstArgs()</code></a></div>
 </li>
 </ul>
@@ -274,7 +274,7 @@ extends java.lang.Object</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>getRelationToSecondArgToFirstArgs</h4>
-<pre>public&nbsp;com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.Value,com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.NameValue&gt;&gt;&gt;&nbsp;getRelationToSecondArgToFirstArgs()</pre>
+<pre>public&nbsp;ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.NameValue,ofergivoli.olib.data_structures.map.SafeMap&lt;edu.stanford.nlp.sempre.Value,ofergivoli.olib.data_structures.set.SafeSet&lt;edu.stanford.nlp.sempre.NameValue&gt;&gt;&gt;&nbsp;getRelationToSecondArgToFirstArgs()</pre>
 <div class="block">In the returned data structure:
  - All <code>SafeMap</code> and <code>SafeSet</code> objects in the returned data structure are not empty.
  - All the first arg values of the same relation are represented by the same <code>SemType</code>.
@@ -287,7 +287,7 @@ extends java.lang.Object</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>getRelationAsFunction</h4>
-<pre>public&nbsp;java.util.function.Function&lt;edu.stanford.nlp.sempre.Value,com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;? extends edu.stanford.nlp.sempre.Value&gt;&gt;&nbsp;getRelationAsFunction(edu.stanford.nlp.sempre.NameValue&nbsp;relation,
+<pre>public&nbsp;java.util.function.Function&lt;edu.stanford.nlp.sempre.Value,ofergivoli.olib.data_structures.set.SafeSet&lt;? extends edu.stanford.nlp.sempre.Value&gt;&gt;&nbsp;getRelationAsFunction(edu.stanford.nlp.sempre.NameValue&nbsp;relation,
                                                                                                                                                                                      boolean&nbsp;inverse)</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>

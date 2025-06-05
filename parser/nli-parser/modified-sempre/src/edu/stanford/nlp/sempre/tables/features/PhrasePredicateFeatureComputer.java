@@ -1,8 +1,8 @@
 //NOTICE: this file was modified by Ofer Givoli (i.e. it's not identical to the matching file in the original Sempre package).
 package edu.stanford.nlp.sempre.tables.features;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeLinkedHashMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.map.SafeLinkedHashMap;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
 import edu.stanford.nlp.sempre.*;
 import edu.stanford.nlp.sempre.tables.features.PredicateInfo.PredicateType;
 import fig.basic.LispTree;

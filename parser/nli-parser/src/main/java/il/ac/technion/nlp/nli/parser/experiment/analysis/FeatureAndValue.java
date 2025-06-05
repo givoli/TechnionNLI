@@ -2,10 +2,10 @@ package il.ac.technion.nlp.nli.parser.experiment.analysis;
 
 import com.google.common.base.Verify;
 import com.google.common.primitives.Doubles;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.io.TextIO;
-import com.ofergivoli.ojavalib.io.csv.CsvContent;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.io.TextIO;
+import ofergivoli.olib.io.csv.CsvContent;
 import org.apache.commons.math3.stat.ranking.NaturalRanking;
 import org.apache.commons.math3.stat.ranking.TiesStrategy;
 

@@ -1,9 +1,9 @@
 package il.ac.technion.nlp.nli.core.state.knowledgebase;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.string.StringManager;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.string.StringManager;
 
 import java.util.Collection;
 import java.util.Comparator;

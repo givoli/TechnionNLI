@@ -141,7 +141,7 @@ extends java.lang.Object</pre>
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Example&gt;</code></td>
+<td class="colFirst"><code>ofergivoli.olib.data_structures.map.SafeMap&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Example&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/general/SempreExperiment.html#exampleIdToExample">exampleIdToExample</a></span></code>
 <div class="block">Contains both the train and test examples.</div>
 </td>
@@ -154,13 +154,13 @@ extends java.lang.Object</pre>
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt;</code></td>
+<td class="colFirst"><code>ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/general/SempreExperiment.html#featuresAllowedToBeExtracted">featuresAllowedToBeExtracted</a></span></code>
 <div class="block">When not null, only these features are allowed to be extracted (i.e.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt;</code></td>
+<td class="colFirst"><code>ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/general/SempreExperiment.html#featuresToOptimizeWeightsFor">featuresToOptimizeWeightsFor</a></span></code>
 <div class="block">When not null, only the weights of these features are considered by the optimization algorithm as variables to
  optimize (all other weights are considered as constants by the optimization algorithm).</div>
@@ -208,12 +208,12 @@ extends java.lang.Object</pre>
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/general/SempreExperiment.html#SempreExperiment-java.nio.file.Path-il.ac.technion.nlp.nli.core.dataset.ExampleSplit-java.io.File-il.ac.technion.nlp.nli.parser.experiment.ExperimentSettings-boolean-com.ofergivoli.ojavalib.data_structures.set.SafeSet-">SempreExperiment</a></span>(java.nio.file.Path&nbsp;moduleResourceDir,
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../il/ac/technion/nlp/nli/parser/general/SempreExperiment.html#SempreExperiment-java.nio.file.Path-il.ac.technion.nlp.nli.core.dataset.ExampleSplit-java.io.File-il.ac.technion.nlp.nli.parser.experiment.ExperimentSettings-boolean-ofergivoli.olib.data_structures.set.SafeSet-">SempreExperiment</a></span>(java.nio.file.Path&nbsp;moduleResourceDir,
                 il.ac.technion.nlp.nli.core.dataset.ExampleSplit&nbsp;split,
                 java.io.File&nbsp;outputAnalysisDir,
                 <a href="../../../../../../../il/ac/technion/nlp/nli/parser/experiment/ExperimentSettings.html" title="class in il.ac.technion.nlp.nli.parser.experiment">ExperimentSettings</a>&nbsp;settings,
                 boolean&nbsp;isFirstStep,
-                com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt;&nbsp;featuresToOptimizeWeightsFor)</code>&nbsp;</td>
+                ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt;&nbsp;featuresToOptimizeWeightsFor)</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -360,7 +360,7 @@ public&nbsp;edu.stanford.nlp.sempre.Parser sempreParser</pre>
 <li class="blockList">
 <h4>featuresToOptimizeWeightsFor</h4>
 <pre>@Nullable
-public final&nbsp;com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt; featuresToOptimizeWeightsFor</pre>
+public final&nbsp;ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt; featuresToOptimizeWeightsFor</pre>
 <div class="block">When not null, only the weights of these features are considered by the optimization algorithm as variables to
  optimize (all other weights are considered as constants by the optimization algorithm).
  A null value represents all possible features.</div>
@@ -373,7 +373,7 @@ public final&nbsp;com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.la
 <li class="blockList">
 <h4>featuresAllowedToBeExtracted</h4>
 <pre>@Nullable
-public&nbsp;com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt; featuresAllowedToBeExtracted</pre>
+public&nbsp;ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt; featuresAllowedToBeExtracted</pre>
 <div class="block">When not null, only these features are allowed to be extracted (i.e. these are the features that are used
  by the model).
  A null value means not adding restrictions.</div>
@@ -408,7 +408,7 @@ public final&nbsp;<a href="../../../../../../../il/ac/technion/nlp/nli/parser/ge
 <ul class="blockList">
 <li class="blockList">
 <h4>exampleIdToExample</h4>
-<pre>public final&nbsp;com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Example&gt; exampleIdToExample</pre>
+<pre>public final&nbsp;ofergivoli.olib.data_structures.map.SafeMap&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Example&gt; exampleIdToExample</pre>
 <div class="block">Contains both the train and test examples.</div>
 </li>
 </ul>
@@ -429,7 +429,7 @@ public final&nbsp;<a href="../../../../../../../il/ac/technion/nlp/nli/parser/ge
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a name="SempreExperiment-java.nio.file.Path-il.ac.technion.nlp.nli.core.dataset.ExampleSplit-java.io.File-il.ac.technion.nlp.nli.parser.experiment.ExperimentSettings-boolean-com.ofergivoli.ojavalib.data_structures.set.SafeSet-">
+<a name="SempreExperiment-java.nio.file.Path-il.ac.technion.nlp.nli.core.dataset.ExampleSplit-java.io.File-il.ac.technion.nlp.nli.parser.experiment.ExperimentSettings-boolean-ofergivoli.olib.data_structures.set.SafeSet-">
 <!--   -->
 </a>
 <ul class="blockListLast">
@@ -441,7 +441,7 @@ public final&nbsp;<a href="../../../../../../../il/ac/technion/nlp/nli/parser/ge
                         <a href="../../../../../../../il/ac/technion/nlp/nli/parser/experiment/ExperimentSettings.html" title="class in il.ac.technion.nlp.nli.parser.experiment">ExperimentSettings</a>&nbsp;settings,
                         boolean&nbsp;isFirstStep,
                         @Nullable
-                        com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt;&nbsp;featuresToOptimizeWeightsFor)</pre>
+                        ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt;&nbsp;featuresToOptimizeWeightsFor)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>outputAnalysisDir</code> - may already exist.</dd>

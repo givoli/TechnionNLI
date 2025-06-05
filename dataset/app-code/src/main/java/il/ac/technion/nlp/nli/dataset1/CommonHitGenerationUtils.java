@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1;
 
-import com.ofergivoli.ojavalib.io.TextIO;
-import com.ofergivoli.ojavalib.string.StringManager;
+import ofergivoli.olib.io.TextIO;
+import ofergivoli.olib.string.StringManager;
 
 import java.util.ArrayList;
 import java.util.List;

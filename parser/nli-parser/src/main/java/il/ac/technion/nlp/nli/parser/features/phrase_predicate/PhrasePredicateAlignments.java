@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.parser.features.phrase_predicate;
 
-import com.ofergivoli.ojavalib.data_structures.map.Maps;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMapWrapper;
+import ofergivoli.olib.data_structures.map.Maps;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.map.SafeMapWrapper;
 import edu.stanford.nlp.sempre.tables.features.PredicateInfo;
 import org.jetbrains.annotations.Nullable;
 

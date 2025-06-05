@@ -1,12 +1,12 @@
 package il.ac.technion.nlp.nli.parser.experiment;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.general.CommandRunner;
-import com.ofergivoli.ojavalib.io.GeneralFileUtils;
-import com.ofergivoli.ojavalib.io.serialization.SerializationUtils;
-import com.ofergivoli.ojavalib.io.serialization.xml.XStreamSerialization;
-import com.ofergivoli.ojavalib.time.TemporalFormat;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.general.CommandRunner;
+import ofergivoli.olib.io.GeneralFileUtils;
+import ofergivoli.olib.io.serialization.SerializationUtils;
+import ofergivoli.olib.io.serialization.xml.XStreamSerialization;
+import ofergivoli.olib.time.TemporalFormat;
 import edu.stanford.nlp.sempre.*;
 import edu.stanford.nlp.sempre.tables.DPParser;
 import edu.stanford.nlp.sempre.tables.features.PhrasePredicateFeatureComputer;

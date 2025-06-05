@@ -1,12 +1,12 @@
 package il.ac.technion.nlp.nli.parser.kb;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.io.csv.CsvContent;
-import com.ofergivoli.ojavalib.string.StringManager;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.io.csv.CsvContent;
+import ofergivoli.olib.string.StringManager;
 import edu.stanford.nlp.sempre.*;
 import il.ac.technion.nlp.nli.core.state.knowledgebase.GraphKb;
 import il.ac.technion.nlp.nli.parser.NameValuesManager;

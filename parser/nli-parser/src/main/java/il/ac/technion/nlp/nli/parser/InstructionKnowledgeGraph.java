@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.parser;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.reflection.ReflectionUtils;
+import ofergivoli.olib.reflection.ReflectionUtils;
 import edu.stanford.nlp.sempre.*;
 import edu.stanford.nlp.sempre.tables.TableKnowledgeGraph;
 import edu.stanford.nlp.sempre.tables.TableTypeSystem;

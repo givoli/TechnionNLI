@@ -1,10 +1,10 @@
 package il.ac.technion.nlp.nli.parser.lexicon;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.exceptions.UncheckedInvalidArgumentException;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.exceptions.UncheckedInvalidArgumentException;
 import edu.stanford.nlp.sempre.*;
 import edu.stanford.nlp.sempre.tables.FuzzyMatcher;
 import il.ac.technion.nlp.nli.core.NliDescriptionsUtils;

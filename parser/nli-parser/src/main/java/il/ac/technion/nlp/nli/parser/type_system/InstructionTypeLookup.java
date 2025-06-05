@@ -1,7 +1,7 @@
     package il.ac.technion.nlp.nli.parser.type_system;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import edu.stanford.nlp.sempre.*;
 import il.ac.technion.nlp.nli.parser.experiment.ExperimentRunner;
 import il.ac.technion.nlp.nli.parser.InstructionKnowledgeGraph;

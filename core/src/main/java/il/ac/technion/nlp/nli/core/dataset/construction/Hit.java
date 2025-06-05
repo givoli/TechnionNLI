@@ -1,9 +1,9 @@
 package il.ac.technion.nlp.nli.core.dataset.construction;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
-import com.ofergivoli.ojavalib.io.binary_files.PngFileInMemo;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.set.SafeSet;
+import ofergivoli.olib.io.binary_files.PngFileInMemo;
 import il.ac.technion.nlp.nli.core.dataset.Domain;
 import il.ac.technion.nlp.nli.core.dataset.visualization.InitialAndDesiredStatesFigure;
 import il.ac.technion.nlp.nli.core.method_call.MethodCall;

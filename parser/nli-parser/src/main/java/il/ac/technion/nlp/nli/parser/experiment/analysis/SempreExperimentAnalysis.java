@@ -1,15 +1,15 @@
 package il.ac.technion.nlp.nli.parser.experiment.analysis;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
-import com.ofergivoli.ojavalib.general.MemoryAnalyzer;
-import com.ofergivoli.ojavalib.io.GeneralFileUtils;
-import com.ofergivoli.ojavalib.io.TextIO;
-import com.ofergivoli.ojavalib.io.log.Log;
-import com.ofergivoli.ojavalib.io.log.LogDirectory;
-import com.ofergivoli.ojavalib.io.log.Logger;
-import com.ofergivoli.ojavalib.io.serialization.xml.XStreamSerialization;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
+import ofergivoli.olib.general.MemoryAnalyzer;
+import ofergivoli.olib.io.GeneralFileUtils;
+import ofergivoli.olib.io.TextIO;
+import ofergivoli.olib.io.log.Log;
+import ofergivoli.olib.io.log.LogDirectory;
+import ofergivoli.olib.io.log.Logger;
+import ofergivoli.olib.io.serialization.xml.XStreamSerialization;
 import edu.stanford.nlp.sempre.*;
 import il.ac.technion.nlp.nli.core.dataset.Domain;
 import il.ac.technion.nlp.nli.core.dataset.ExampleSplit;

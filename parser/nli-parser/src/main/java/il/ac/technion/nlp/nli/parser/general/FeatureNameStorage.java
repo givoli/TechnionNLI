@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.parser.general;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
 
 /**
  * An object of this class is used to store the names of the feature names extracted so far in the current inference,

@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.method_call;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.io.log.Log;
+import ofergivoli.olib.io.log.Log;
 import il.ac.technion.nlp.nli.core.EnableNli;
 import il.ac.technion.nlp.nli.core.state.NliEntity;
 import il.ac.technion.nlp.nli.core.state.PrimitiveEntity;

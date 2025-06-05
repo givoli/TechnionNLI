@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1.domains.messenger.hit;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.core.dataset.DatasetDomains;
 import il.ac.technion.nlp.nli.core.dataset.construction.hit_random_generation.HitRandomGenerator;
 import il.ac.technion.nlp.nli.core.dataset.visualization.StateVisualizer;

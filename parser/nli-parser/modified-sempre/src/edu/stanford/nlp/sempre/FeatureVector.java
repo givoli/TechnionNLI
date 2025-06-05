@@ -4,7 +4,7 @@ package edu.stanford.nlp.sempre;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import fig.basic.*;
 import il.ac.technion.nlp.nli.parser.experiment.ExperimentRunner;
 

@@ -1,9 +1,9 @@
 package il.ac.technion.nlp.nli.parser.experiment;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.io.GeneralFileUtils;
-import com.ofergivoli.ojavalib.io.files_tree.FileTreeManager;
-import com.ofergivoli.ojavalib.io.serialization.xml.XStreamSerialization;
+import ofergivoli.olib.io.GeneralFileUtils;
+import ofergivoli.olib.io.files_tree.FileTreeManager;
+import ofergivoli.olib.io.serialization.xml.XStreamSerialization;
 import il.ac.technion.nlp.nli.parser.experiment.analysis.results.ExperimentAnalysisCsvRow;
 import org.apache.commons.io.FileUtils;
 import org.jetbrains.annotations.Nullable;

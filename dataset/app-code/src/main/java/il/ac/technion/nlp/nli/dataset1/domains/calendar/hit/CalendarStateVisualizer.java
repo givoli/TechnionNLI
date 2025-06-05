@@ -1,6 +1,6 @@
 package il.ac.technion.nlp.nli.dataset1.domains.calendar.hit;
 
-import com.ofergivoli.ojavalib.time.TemporalFormat;
+import ofergivoli.olib.time.TemporalFormat;
 import il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Calendar;
 import il.ac.technion.nlp.nli.dataset1.domains.calendar.entities.Event;
 import il.ac.technion.nlp.nli.core.state.State;

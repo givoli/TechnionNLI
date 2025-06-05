@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.reflection;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.reflection.ReflectionUtils;
+import ofergivoli.olib.reflection.ReflectionUtils;
 import il.ac.technion.nlp.nli.core.state.Entity;
 import il.ac.technion.nlp.nli.core.state.NliEntity;
 import il.ac.technion.nlp.nli.core.state.NliRootEntity;

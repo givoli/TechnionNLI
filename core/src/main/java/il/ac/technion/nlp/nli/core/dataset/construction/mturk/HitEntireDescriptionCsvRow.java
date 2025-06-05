@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.dataset.construction.mturk;
 
-import com.ofergivoli.ojavalib.io.csv.supercsv.CsvSettings;
-import com.ofergivoli.ojavalib.io.csv.supercsv.CsvWriter;
+import ofergivoli.olib.io.csv.supercsv.CsvSettings;
+import ofergivoli.olib.io.csv.supercsv.CsvWriter;
 
 import java.io.File;
 import java.util.Arrays;

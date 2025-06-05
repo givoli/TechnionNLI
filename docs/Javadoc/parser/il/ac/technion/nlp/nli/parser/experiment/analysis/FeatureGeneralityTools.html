@@ -151,7 +151,7 @@ extends java.lang.Object</pre>
                              il.ac.technion.nlp.nli.core.dataset.Domain&nbsp;domainToExclude)</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code>static com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt;</code></td>
+<td class="colFirst"><code>static ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../il/ac/technion/nlp/nli/parser/experiment/analysis/FeatureGeneralityTools.html#getFeaturesByGeneralityScoreRank-int-java.nio.file.Path-">getFeaturesByGeneralityScoreRank</a></span>(int&nbsp;numberOfFeaturesToReturn,
                                 java.nio.file.Path&nbsp;featureGeneralityScoresXml)</code>&nbsp;</td>
 </tr>
@@ -163,7 +163,7 @@ extends java.lang.Object</pre>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../il/ac/technion/nlp/nli/parser/experiment/analysis/FeatureGeneralityTools.html#writeFeatureGeneralityAnalysis-com.ofergivoli.ojavalib.data_structures.map.SafeMap-il.ac.technion.nlp.nli.core.dataset.DatasetDomains-java.nio.file.Path-">writeFeatureGeneralityAnalysis</a></span>(com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;org.apache.commons.lang3.tuple.Pair&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Domain&gt;,java.lang.Double&gt;&nbsp;featureAndDomainToWeight,
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../il/ac/technion/nlp/nli/parser/experiment/analysis/FeatureGeneralityTools.html#writeFeatureGeneralityAnalysis-ofergivoli.olib.data_structures.map.SafeMap-il.ac.technion.nlp.nli.core.dataset.DatasetDomains-java.nio.file.Path-">writeFeatureGeneralityAnalysis</a></span>(ofergivoli.olib.data_structures.map.SafeMap&lt;org.apache.commons.lang3.tuple.Pair&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Domain&gt;,java.lang.Double&gt;&nbsp;featureAndDomainToWeight,
                               il.ac.technion.nlp.nli.core.dataset.DatasetDomains&nbsp;datasetDomains,
                               java.nio.file.Path&nbsp;outputCsvFile)</code>
 <div class="block">Writes to 'outputCsvFile' an overall analysis about the generality of all features: For each subset of domains,
@@ -235,7 +235,7 @@ extends java.lang.Object</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>getFeaturesByGeneralityScoreRank</h4>
-<pre>public static&nbsp;com.ofergivoli.ojavalib.data_structures.set.SafeSet&lt;java.lang.String&gt;&nbsp;getFeaturesByGeneralityScoreRank(int&nbsp;numberOfFeaturesToReturn,
+<pre>public static&nbsp;ofergivoli.olib.data_structures.set.SafeSet&lt;java.lang.String&gt;&nbsp;getFeaturesByGeneralityScoreRank(int&nbsp;numberOfFeaturesToReturn,
                                                                                                                      java.nio.file.Path&nbsp;featureGeneralityScoresXml)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -263,13 +263,13 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a name="writeFeatureGeneralityAnalysis-com.ofergivoli.ojavalib.data_structures.map.SafeMap-il.ac.technion.nlp.nli.core.dataset.DatasetDomains-java.nio.file.Path-">
+<a name="writeFeatureGeneralityAnalysis-ofergivoli.olib.data_structures.map.SafeMap-il.ac.technion.nlp.nli.core.dataset.DatasetDomains-java.nio.file.Path-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>writeFeatureGeneralityAnalysis</h4>
-<pre>public static&nbsp;void&nbsp;writeFeatureGeneralityAnalysis(com.ofergivoli.ojavalib.data_structures.map.SafeMap&lt;org.apache.commons.lang3.tuple.Pair&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Domain&gt;,java.lang.Double&gt;&nbsp;featureAndDomainToWeight,
+<pre>public static&nbsp;void&nbsp;writeFeatureGeneralityAnalysis(ofergivoli.olib.data_structures.map.SafeMap&lt;org.apache.commons.lang3.tuple.Pair&lt;java.lang.String,il.ac.technion.nlp.nli.core.dataset.Domain&gt;,java.lang.Double&gt;&nbsp;featureAndDomainToWeight,
                                                   il.ac.technion.nlp.nli.core.dataset.DatasetDomains&nbsp;datasetDomains,
                                                   java.nio.file.Path&nbsp;outputCsvFile)</pre>
 <div class="block">Writes to 'outputCsvFile' an overall analysis about the generality of all features: For each subset of domains,
@@ -291,7 +291,7 @@ extends java.lang.Object</pre>
                                                   java.nio.file.Path&nbsp;outputCsvFile)</pre>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../../../../il/ac/technion/nlp/nli/parser/experiment/analysis/FeatureGeneralityTools.html#writeFeatureGeneralityAnalysis-com.ofergivoli.ojavalib.data_structures.map.SafeMap-il.ac.technion.nlp.nli.core.dataset.DatasetDomains-java.nio.file.Path-"><code>writeFeatureGeneralityAnalysis(SafeMap, DatasetDomains, Path)</code></a></dd>
+<dd><a href="../../../../../../../../il/ac/technion/nlp/nli/parser/experiment/analysis/FeatureGeneralityTools.html#writeFeatureGeneralityAnalysis-ofergivoli.olib.data_structures.map.SafeMap-il.ac.technion.nlp.nli.core.dataset.DatasetDomains-java.nio.file.Path-"><code>writeFeatureGeneralityAnalysis(SafeMap, DatasetDomains, Path)</code></a></dd>
 </dl>
 </li>
 </ul>

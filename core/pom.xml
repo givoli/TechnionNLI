@@ -46,8 +46,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.ofergivoli.ojavalib</groupId>
-            <artifactId>ojavalib</artifactId>
+            <groupId>ofergivoli.olib</groupId>
+            <artifactId>olib</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>

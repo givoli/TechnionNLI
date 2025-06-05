@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.method_call;
 
-import com.ofergivoli.ojavalib.exceptions.UncheckedNoSuchMethodException;
-import com.ofergivoli.ojavalib.reflection.ReflectionUtils;
+import ofergivoli.olib.exceptions.UncheckedNoSuchMethodException;
+import ofergivoli.olib.reflection.ReflectionUtils;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;

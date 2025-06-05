@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1.domains.container_management.hit;
 
-import com.ofergivoli.ojavalib.data_structures.map.SafeHashMap;
-import com.ofergivoli.ojavalib.data_structures.map.SafeMap;
+import ofergivoli.olib.data_structures.map.SafeHashMap;
+import ofergivoli.olib.data_structures.map.SafeMap;
 import il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ShippingContainer;
 import il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContainerManagementSystem;
 import il.ac.technion.nlp.nli.dataset1.domains.container_management.entities.ContentState;

@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.dataset1.domains.list.hit;
 
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.dataset1.domains.list.entities.ListElement;
 import il.ac.technion.nlp.nli.dataset1.domains.list.entities.SpecialList;
 import il.ac.technion.nlp.nli.core.state.State;

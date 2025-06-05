@@ -15,5 +15,5 @@ The content of the "parser/nli-parser/modified-sempre" directory is a derivative
 -----------------------------------------
 The content of the "parser/modified-fig" directory is the fig library by Percy Liang, after being modified by us. The fig library is licensed under the MIT License (MIT) (see the LICENSE file in that directory).
 -----------------------------------------
-The content of the "lib/ojavalib" directory is a Java library by Ofer Givoli, and is licensed under The MIT License (see the LICENSE.txt file in that directory).
+The content of the "lib/olib" directory is a Java library by Ofer Givoli, and is licensed under The MIT License (see the LICENSE.txt file in that directory).
 -----------------------------------------

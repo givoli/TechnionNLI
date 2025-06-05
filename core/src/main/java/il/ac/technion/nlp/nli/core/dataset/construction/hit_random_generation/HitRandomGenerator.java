@@ -1,7 +1,7 @@
 package il.ac.technion.nlp.nli.core.dataset.construction.hit_random_generation;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.io.log.Log;
+import ofergivoli.olib.io.log.Log;
 import il.ac.technion.nlp.nli.core.dataset.Domain;
 import il.ac.technion.nlp.nli.core.method_call.MethodCall;
 import il.ac.technion.nlp.nli.core.state.NliRootEntity;

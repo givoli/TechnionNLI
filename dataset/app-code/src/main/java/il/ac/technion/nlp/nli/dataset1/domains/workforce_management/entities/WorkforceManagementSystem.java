@@ -1,8 +1,8 @@
 package il.ac.technion.nlp.nli.dataset1.domains.workforce_management.entities;
 
 import com.google.common.base.Verify;
-import com.ofergivoli.ojavalib.data_structures.set.SafeHashSet;
-import com.ofergivoli.ojavalib.data_structures.set.SafeSet;
+import ofergivoli.olib.data_structures.set.SafeHashSet;
+import ofergivoli.olib.data_structures.set.SafeSet;
 import il.ac.technion.nlp.nli.core.EnableNli;
 import il.ac.technion.nlp.nli.core.NliDescriptions;
 import il.ac.technion.nlp.nli.core.method_call.InvalidNliMethodInvocation;
